@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.hangban{ background:url(/images/js/triangle23.gif) no-repeat; width:300px;height:200px; overflow:hidden; padding-top:5px;}
+.hangban dt{ border-bottom:#CCC dashed 1px; color:#666; padding-left:10px;}
+.hangban span{ width:50px; float:left; text-align:center; line-height:22px;} 
+.hangban .weekbtn{ background:url(/images/js/weekqr.gif) no-repeat; width:50px; height:19px; text-align:center; color:#333; border:none; float:none; margin-top:10px; }
+.hangban p{ text-align:center;border: 0 none; margin: 0; padding: 0;}
+.hangban select,input,select{  vertical-align: middle;}
+.hangban dd {border: 0 none; margin: 0; padding: 0;}
+.hangban .c {clear: both;border: 0 none; margin: 0; padding: 0;}
+
+.hangbanNum{ background:url(/images/js/triangle1.gif) no-repeat; width:250px;height:120px; overflow:hidden; padding-top:5px;}
+.hangbanNum dt{ border-bottom:#CCC dashed 1px; color:#666; padding-left:10px;}
+.hangbanNum span{ width:50px; float:left; text-align:center; line-height:22px;} 
+.hangbanNum .numberStrbtn{ background:url(/images/js/weekqr.gif) no-repeat; width:50px; height:19px; text-align:center; color:#333; border:none; float:none; margin-top:10px; }
+.hangbanNum p{ text-align:center;border: 0 none; margin: 0; padding: 0;}
+.hangbanNum select,input,select{  vertical-align: middle;}
+.hangbanNum dd {border: 0 none; margin: 0; padding: 0;}
+.hangbanNum .c {clear: both;border: 0 none; margin: 0; padding: 0;}

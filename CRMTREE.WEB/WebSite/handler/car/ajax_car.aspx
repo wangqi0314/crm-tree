@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ajax_car.aspx.cs" Inherits="handler_ajax_car" %>

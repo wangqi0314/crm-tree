@@ -1,0 +1,114 @@
+﻿/*----------------------------------------------
+
+*Filename:					air.css
+*Description:				Global Css
+*Version:					1.0.0(2011-05-26)
+*Website:					www.56dodo.com
+*Author						chenqinglian
+
+/*==STRUCTURE===================================
+
+*Page width:				980px
+*Number of columns:			3
+$__reset					css reset
+$__public box
+$__public class
+
+----------------------------------------------*/
+
+/*    __reset 
+----------------------------------------------*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*    __layout
+----------------------------------------------*/
+body,button,input,select,textarea{font:normal 12px/1.5 'Tahoma','simsun';color:#333;}
+html,body{height:100%;}
+a{text-decoration:none;color:#333;} 
+a:hover{text-decoration:none;color:#c80000;}
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+.mb10{margin-bottom:10px;}.mt10{margin-top:10px;}
+.fb{font-weight:bold;}
+
+/*    __ie6 min_width
+----------------------------------------------*/
+.box_out{_margin-left:750px;_zoom:1;} 
+.box_in{_position:relative;_float:left;_margin-left:-750px;} 
+#min_width{min-width:750px;_zoom:1;} 
+/*    __public box
+----------------------------------------------*/
+.box{padding-left:10px;background:url(/images/icon/boxbg-left.gif) no-repeat 0 0;min-width:750px;}  
+.box .box_bg{padding-right:10px;background:url(/images/icon/boxbg-right.gif) no-repeat 100% 0;}
+.crumb,
+.title {position:relative;height:20px;line-height:20px;padding-top:10px;font-family:'simsun';}
+/*    __crumbIcon
+----------------------------------------------*/
+.crumbIcon{display:inline;float:left;width:16px;height:16px;background:url(/images/icon/btn-icon.png) no-repeat 100% 100%;margin:2px 2px 0 0;}
+.crumbIcon.sys{background-position:0 -380px;}  
+.crumbIcon.autocar{background-position:0 -440px;}
+.crumbIcon.warning{background-position:0 -500px;}
+.crumbIcon.nafc{background-position:0 -560px;}
+.crumbIcon.financial{background-position:0 -620px;}
+.crumbIcon.safe{background-position:0 -680px;}
+.crumbIcon.basic{background-position:0 -740px;}  
+.crumbIcon.service{background-position:0 -800px;}  
+.inputBtn,
+.inputBtn75,
+.inputBtn90{cursor:pointer;overflow:hidden;height:20px;line-height:20px;background:url(/images/icon/btn.png) no-repeat 100% 100%;}
+.inputBtn{width:50px;background-position:0 -200px;}
+.inputBtn75{width:75px;background-position:0 -250px;}
+.inputBtn90{width:90px;background-position:100% -250px;}
+
+
+/*    __content
+----------------------------------------------*/
+.content{padding:0 15px 10px 15px;height:1%;}
+.content h1{clear:both;font-size:24px;line-height:28px;font-weight:bold;text-align:center;margin-bottom:5px;}
+.content .info{line-height:21px;text-align:center;color:#777;}
+.content .info .date{margin-right:15px;}
+.content .info .addr{}
+.content .summary{text-align:justify; text-justify:inter-ideograph;background:#fffff1;margin:15px 0 0;padding:12px 5px 6px;line-height:23px;font-size:14px;text-indent:2em;border:1px solid #dcdddd;color:#555;}
+.content .text {text-align:justify;text-justify:inter-ideograph;overflow:hidden;padding:10px 0;font-size:14px;clear:both;line-height:23px;word-wrap:break-word;}
+.content .text h2 { font-size:14px; }
+.content .text .icon { margin:3px 0 0; border:0;}
+.content .text img {border:1px solid #ccc;}
+.content .text p {font-size:12px; line-height:2.2em; text-indent:2em;}
+.content .text a,
+.content .text a:visited {color:#1E50A2;  text-decoration:underline;}
+.content .text a:hover {color:#ba2636;}
+.content .pageBar{overflow:hidden;height:44px;line-height:44px;margin:10px auto 0 auto;border:dotted #afafb0;border-width:1px 0;background:#f8f8f8;color:#2a2a2a;font-size:14px;text-align:center;}
+.content .pageBar a{margin-right:10px;}
+.content .photoList{width:97%;margin:0 auto;_padding-bottom:10px;}
+.content .photoList li{display:inline;float:left;margin:0 15px 10px 0;}
+.content .photoList li .photo{float:left;padding:2px;border:solid 1px #d8d8d8;}
+.content .photoList li .photo img{display:block;width:145px;height:115px;}
+.content .attachments{width:97%;margin:0 auto;padding-bottom:10px;}
+.content .attachments li{height:24px;line-height:24px;padding-left:20px;background:url(/images/icon/download.gif) no-repeat 0 50%;}
+
+.content .vedio{width:97%;margin:0 auto;padding-bottom:10px;}
+
+.content .wrap_out{border:solid #ccc 1px;padding:4px;background:#eae8e6;}
+.content .wrap_in{border:solid #e0e0e0 1px;background:#fff;}
+.content .columnTit{width:97%;height:30px;line-height:30px;margin:0 auto 10px auto;border-bottom:solid #a9a9a9 1px;}
+.content .columnTit h4{font-size:14px;font-weight:700;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

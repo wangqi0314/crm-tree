@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CampaginCon2" xml:space="preserve">
+    <value>Please Select  Method</value>
+  </data>
+  <data name="CampaginCon3" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="CampaginCon4" xml:space="preserve">
+    <value>Campagin Message File</value>
+  </data>
+  <data name="CampaginCon5" xml:space="preserve">
+    <value>Please Select  the Campaign Success Matrix</value>
+  </data>
+  <data name="CampaginCon6" xml:space="preserve">
+    <value>Please upload the Campaign file</value>
+  </data>
+  <data name="CampaginCon7" xml:space="preserve">
+    <value>Please enter  Date</value>
+  </data>
+  <data name="CampaginCon8" xml:space="preserve">
+    <value>Please enter  Title</value>
+  </data>
+  <data name="CampaginCon9" xml:space="preserve">
+    <value>Please enter  Description</value>
+  </data>
+  <data name="CampaginCT" xml:space="preserve">
+    <value>Customers Targeted</value>
+  </data>
+  <data name="CampaginEMail" xml:space="preserve">
+    <value>EMail</value>
+  </data>
+  <data name="CampaginMailers" xml:space="preserve">
+    <value>Mailers</value>
+  </data>
+  <data name="CampaginSAVE" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="CampaginSM" xml:space="preserve">
+    <value>Success Matrix</value>
+  </data>
+  <data name="CampaginSurvey" xml:space="preserve">
+    <value>Survey</value>
+  </data>
+  <data name="CampaginUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="CampagonBL" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="CampaignAutomated" xml:space="preserve">
+    <value>Automated</value>
+  </data>
+  <data name="CampaignBasicInformation" xml:space="preserve">
+    <value>Campaign Editor</value>
+  </data>
+  <data name="CampaignBothof" xml:space="preserve">
+    <value>Both of</value>
+  </data>
+  <data name="CampaignCon1" xml:space="preserve">
+    <value>Please Select  the person making the calls</value>
+  </data>
+  <data name="CampaignCRMTree" xml:space="preserve">
+    <value>ShuNovo</value>
+  </data>
+  <data name="CampaignDASHBOARD" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Campaignday" xml:space="preserve">
+    <value>Run every day</value>
+  </data>
+  <data name="CampaignDealer" xml:space="preserve">
+    <value>Dealer</value>
+  </data>
+  <data name="CampaignDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CampaignEdit" xml:space="preserve">
+    <value>Edit Campaign</value>
+  </data>
+  <data name="Campaignfrequency" xml:space="preserve">
+    <value>Frequency:</value>
+  </data>
+  <data name="CampaignInperson" xml:space="preserve">
+    <value>In person</value>
+  </data>
+  <data name="CampaignList" xml:space="preserve">
+    <value>List of Campaigns</value>
+  </data>
+  <data name="CampaignMethod" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="CampaignPhoneCalls" xml:space="preserve">
+    <value>Phone Calls:</value>
+  </data>
+  <data name="CampaignSales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="CampaignScriptedmessage" xml:space="preserve">
+    <value>WeChat</value>
+    <comment>Scripted Message</comment>
+  </data>
+  <data name="CampaignService" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="CampaignSinglemessage" xml:space="preserve">
+    <value>Single Message</value>
+  </data>
+  <data name="CampaignText" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="Campaigntime" xml:space="preserve">
+    <value>Run for a period of time</value>
+  </data>
+  <data name="CampaignTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="CampaignType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="topLogo" xml:space="preserve">
+    <value>Innovations on Every Branch!</value>
+  </data>
+  <data name="topSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="topSignout" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="topWelcome" xml:space="preserve">
+    <value>, Welcome! </value>
+  </data>
+  <data name="LoginAssessment" xml:space="preserve">
+    <value>ASSESSMENT</value>
+  </data>
+  <data name="LoginBtLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LoginCon1" xml:space="preserve">
+    <value>Shunovo uses campaigns surveys,and actual information from your store to help you bring costomers to you store,while keeping them satisfied.</value>
+  </data>
+  <data name="LoginCon2" xml:space="preserve">
+    <value>We identify technology, training, and processes to take your sales and service teams to the next level.</value>
+  </data>
+  <data name="LoginCon3" xml:space="preserve">
+    <value>Through a series of fully customizable campaigns, you can offer products and services to your customers, keeping them engaged and satisfied.</value>
+  </data>
+  <data name="LoginCon4" xml:space="preserve">
+    <value>Shunovo provides you with Key Performance Indicators at any time for any period of time, helping you adjust strategies and resources as needed.</value>
+  </data>
+  <data name="LoginCon5" xml:space="preserve">
+    <value>REACH YOUR GOALS FASTER AT A LOWER COST</value>
+  </data>
+  <data name="LoginEfficiencies" xml:space="preserve">
+    <value>EFFICIENCIES</value>
+  </data>
+  <data name="LoginEngage" xml:space="preserve">
+    <value>ENGAGE</value>
+  </data>
+  <data name="LoginGlobalco" xml:space="preserve">
+    <value>GLOBAL CO.</value>
+  </data>
+  <data name="LoginLiuldala" xml:space="preserve">
+    <value>LIUL DALA</value>
+  </data>
+  <data name="Loginlower1" xml:space="preserve">
+    <value>SEASONED PROS</value>
+  </data>
+  <data name="Loginlower2" xml:space="preserve">
+    <value>OUR SERVICES</value>
+  </data>
+  <data name="Loginlower3" xml:space="preserve">
+    <value>TESTIMONIALS</value>
+  </data>
+  <data name="Loginlower4" xml:space="preserve">
+    <value>CRM training</value>
+  </data>
+  <data name="Loginlower5" xml:space="preserve">
+    <value>KPI measurement</value>
+  </data>
+  <data name="Loginlower6" xml:space="preserve">
+    <value>Data integration and Analysis</value>
+  </data>
+  <data name="Loginlower7" xml:space="preserve">
+    <value>OUR CONSULTANTS HAVE BEEN EVERYWHERE</value>
+  </data>
+  <data name="Loginlower8" xml:space="preserve">
+    <value>Our professional staff includes two MBAs, a certified sales process engineer, and a customer retention expert. We also have special expertise in data integration.</value>
+  </data>
+  <data name="Loginlower9" xml:space="preserve">
+    <value>“Shunovo delivered everything they promised. Our customer satisfaction levels are at an all-time high!”</value>
+  </data>
+  <data name="LoginName" xml:space="preserve">
+    <value>Login Name</value>
+  </data>
+  <data name="LoginPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LoginPlanning" xml:space="preserve">
+    <value>PLANNING</value>
+  </data>
+  <data name="LoginReadMore" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginReadMore1" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginReadMore2" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginReadMore3" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginTitel" xml:space="preserve">
+    <value>Shunovo Login</value>
+  </data>
+  <data name="LoginFoot1" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LoginFoot2" xml:space="preserve">
+    <value>Privacy &amp; Terms</value>
+  </data>
+  <data name="LoginFoot3" xml:space="preserve">
+    <value>Sign-out</value>
+  </data>
+  <data name="LoginFoot4" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="LoginFoot5" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="CampaginCon10" xml:space="preserve">
+    <value>Please upload the Campaign file</value>
+  </data>
+  <data name="LoginHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="LoginAbout" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="LoginContact" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="LoginHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LoginPrivacy" xml:space="preserve">
+    <value>Privacy &amp; Terms</value>
+  </data>
+  <data name="LoginProducts" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="LoginServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="ScrollMess1" xml:space="preserve">
+    <value>PROTECT AND NOURISH YOUR CUSTOMERS</value>
+  </data>
+  <data name="ScrollMess2" xml:space="preserve">
+    <value>PROTECT AND NOURISH YOUR CUSTOMERS</value>
+  </data>
+  <data name="ScrollMess3" xml:space="preserve">
+    <value>ACHIEVE GROWTH THROUGH INNOVATION!</value>
+  </data>
+  <data name="ScrollMess4" xml:space="preserve">
+    <value>CUSTOMIZE YOUR NEEDS WITH INNOVATIVE IDEAS AND PRODUCTS!</value>
+  </data>
+  <data name="ScrollMess5" xml:space="preserve">
+    <value>REACH YOUR GOALS FASTER AT A LOWER COST</value>
+  </data>
+  <data name="ScrollMess6" xml:space="preserve">
+    <value>GROW YOUR BUSINESS FASTER AT LOWER COST.</value>
+  </data>
+  <data name="CampProvideFile" xml:space="preserve">
+    <value>Please upload or create a Campaign file!</value>
+  </data>
+  <data name="CampSelectTarget" xml:space="preserve">
+    <value>Please select the customers being targeted for this campaign!</value>
+  </data>
+  <data name="CampaginDekuApp" xml:space="preserve">
+    <value>Daeku App</value>
+  </data>
+  <data name="CampaginSurveySur" xml:space="preserve">
+    <value>Survey</value>
+  </data>
+  <data name="CampaignActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="CampaignSalesCam" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="CampaignScriptedWeibo" xml:space="preserve">
+    <value>Weibo</value>
+  </data>
+  <data name="CampaignScriptStd" xml:space="preserve">
+    <value>Std</value>
+  </data>
+  <data name="CampaignShare" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="CampaignTextHtml" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="CampaignTextScript" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="CampaignTextSun" xml:space="preserve">
+    <value>SingleText</value>
+  </data>
+  <data name="CampaignTextVoice" xml:space="preserve">
+    <value>Voice</value>
+  </data>
+  <data name="EventBudget" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="EventContact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="EventDate" xml:space="preserve">
+    <value>Event Date</value>
+  </data>
+  <data name="EventDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="EventGenre" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="EventMarketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="EventMessageFile" xml:space="preserve">
+    <value>Message File</value>
+  </data>
+  <data name="EventNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="EventPersonResponse" xml:space="preserve">
+    <value>Person(s) Response</value>
+  </data>
+  <data name="EventRecommendedools" xml:space="preserve">
+    <value>Recommended Tools</value>
+  </data>
+  <data name="EventRSVP" xml:space="preserve">
+    <value>RSVP Required</value>
+  </data>
+  <data name="EventSales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="EventService" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="EventTarSp" xml:space="preserve">
+    <value>Please select the customers being targeted for this Event!</value>
+  </data>
+  <data name="EventYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Powered By</value>
+  </data>
+  <data name="ListOfReports" xml:space="preserve">
+    <value>List of Reports</value>
+  </data>
+  <data name="SelecetTemplate" xml:space="preserve">
+    <value>Use the selected Template</value>
+  </data>
+  <data name="SelectBlank" xml:space="preserve">
+    <value>Start With a Blank</value>
+  </data>
+  <data name="TemplList" xml:space="preserve">
+    <value>List of Campaign Templates</value>
+  </data>
+  <data name="FormText" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>No Data Available!</value>
+  </data>
+  <data name="ChartsTab" xml:space="preserve">
+    <value>Charts</value>
+  </data>
+  <data name="ReportsTab" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="TablesTab" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="TemplList2" xml:space="preserve">
+    <value>List of Reminder Templates</value>
+  </data>
+  <data name="TemplList3" xml:space="preserve">
+    <value>List of Suervey Templates</value>
+  </data>
+  <data name="VINFile" xml:space="preserve">
+    <value>VIN File</value>
+  </data>
+  <data name="LoginExpired" xml:space="preserve">
+    <value>Your Login Session has expired.  Please login again.</value>
+  </data>
+  <data name="LoginReminder" xml:space="preserve">
+    <value>MyReminders</value>
+  </data>
+</root>

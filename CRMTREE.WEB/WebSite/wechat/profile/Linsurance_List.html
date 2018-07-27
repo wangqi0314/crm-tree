@@ -1,0 +1,128 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title></title>
+    <link href="/wechatcss/pintuer.css" rel="stylesheet" />
+    <link href="/wechatcss/WechatBase.css" rel="stylesheet" />
+    <script src="/wechatjs/jquery-1.10.2.min.js"></script>
+    <script src="/wechatjs/pintuer.js"></script>
+    <style type="text/css">
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("button[data-1='1']").click(function () {
+                $("#page2").removeClass("slidefade_h").addClass("slidefade").show();
+                $("#page1").hide();
+            });
+            $("button[data-2='1']").click(function () {
+                $("#page3").removeClass("slidefade_h").addClass("slidefade").show();
+                $("#page1").hide();
+            });
+            $("#b_li_1_k").click(function () {
+                $("#page2").removeClass("slidefade").addClass("slidefade_h").hide();
+                $("#page1").show();
+            });
+            $("#b_li_2_k").click(function () {
+                $("#page3").removeClass("slidefade").addClass("slidefade_h").hide();
+                $("#page1").show();
+            });
+        });
+    </script>
+</head>
+<body class="layout">
+    <div id="page1">
+        <div class="nav-head" style="height:40px;">
+            <div class="bg-main radius-none height-large text-center fixed_100 fixed-top">
+                <div class="text-sub text-big">
+                    <a href="javascript:history.go(-1);" class="button bg-sub margin-little float-left">返回</a>
+                    <span style="margin-left:-60px">我的保险</span>
+                </div>
+            </div>
+            <div class="height-large fixed_100">**</div>
+        </div>
+        <div class="panel margin-small-top radius-none">
+            <div class="panel-head text-right" style="padding:4px 15px;">
+                <a href="/wechat/profile/Linsurance_Modify.html" class="button bg-mix">新增保险</a>
+            </div>
+            <div class="panel-body form-x padding">
+                <ul class="list-reveal_01">
+                    <li>
+                        <b>中国人寿保险</b>
+                        <button class="button button-little border-gray margin-big-left">
+                            <span class="icon-hand-o-right margin-small-right"></span>电话 95519
+                        </button>
+                    </li>
+                    <li>
+                        <span>保险购买日期：2013-01-01</span><br />
+                        <span>保险到期日期：2014-01-01</span>
+                    </li>
+                    <li>
+                        <button data-1="1" class="button button-little border-gray margin-big-left">
+                            <span class="icon-bars margin-small-right"></span>我的保险详情
+                        </button><button data-2="1" class="button button-little border-gray margin-big-left">
+                            <span class="icon-bars margin-small-right"></span>购买新保险
+                        </button>
+                    </li>
+                </ul>
+                <ul class="list-reveal_01 margin-top">
+                    <li>
+                        <b>太平洋保险</b>
+                        <button class="button button-little border-gray margin-big-left">
+                            <span class="icon-hand-o-right margin-small-right"></span>电话 95500
+                        </button>
+                    </li>
+                    <li>
+                        <span>保险购买日期：2014-01-01</span><br />
+                        <span>保险到期日期：2015-01-01</span>
+                    </li>
+                    <li>
+                        <button data-1="1" class="button button-little border-gray margin-big-left">
+                            <span class="icon-bars margin-small-right"></span>我的保险详情
+                        </button><button data-2="1" class="button button-little border-gray margin-big-left">
+                            <span class="icon-bars margin-small-right"></span>购买新保险
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="page2" style="width:100%;position:absolute;top:0;left:0;display:none">
+        <div class="nav-head" style="height:40px;">
+            <div class="bg-main radius-none height-large text-center fixed_100 fixed-top">
+                <div class="text-sub text-big">
+                    <a id="b_li_1_k" href="javascript:void(0);" class="button bg-sub margin-little float-left">返回</a>
+                    <span style="margin-left:-60px">我的保险详情</span>
+                </div>
+            </div>
+            <div class="height-large fixed_100">**</div>
+        </div>
+        <div class="panel margin-small-top radius-none">
+            <div class="panel-head padding-small">我的保险详情</div>
+            <div class="panel-body form-x padding">
+                <img src="/wechatimages/b_t_y.jpg" />
+            </div>
+        </div>
+    </div>
+    <div id="page3" style="width:100%;position:absolute;top:0;left:0;display:none">
+        <div class="nav-head" style="height:40px;">
+            <div class="bg-main radius-none height-large text-center fixed_100 fixed-top">
+                <div class="text-sub text-big">
+                    <a id="b_li_2_k" href="javascript:void(0);" class="button bg-sub margin-little float-left">返回</a>
+                    <span style="margin-left:-60px">购买新保险</span>
+                </div>
+            </div>
+            <div class="height-large fixed_100">**</div>
+        </div>
+        <div class="panel margin-small-top radius-none">
+            <div class="panel-head padding-small">购买新保险</div>
+            <div class="panel-body form-x padding">
+                <!--<img src="/wechatimages/b_t_y.jpg" />-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

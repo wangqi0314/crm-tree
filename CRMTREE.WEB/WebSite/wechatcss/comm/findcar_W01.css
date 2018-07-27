@@ -1,0 +1,213 @@
+﻿.find-siftanchor {
+    padding: 10px 0;
+    background: #EEF2E5;
+    overflow: hidden;
+}
+
+    .find-siftanchor h3 {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .find-siftanchor ul {
+        padding: 0 6px;
+        overflow: hidden;
+    }
+
+    .find-siftanchor li {
+        float: left;
+        width: 25%;
+    }
+
+    .find-siftanchor .spa {
+        margin-left: 4%;
+    }
+
+    .find-siftanchor .btn-big {
+        display: block;
+        margin: 8px 4px 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+.find-listbrand .brandbox {
+    border-bottom: solid #D6DDC8 1px;
+}
+
+    .find-listbrand .brandbox::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 0;
+        clear: both;
+    }
+
+    .find-listbrand .brandbox a {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        float: left;
+        width: 33.333%;
+        padding: 14px 0 14px 10px;
+        line-height: 1.0;
+        position: relative;
+    }
+
+.find-siftitem {
+    width: 100%;
+}
+
+    .find-siftitem .itembox {
+        height: 34px;
+        margin: 8px 5px 0;
+    }
+
+        .find-siftitem .itembox .item {
+            float: left;
+        }
+
+    .find-siftitem .itembox-col2 .item {
+        width: 33.3%;
+    }
+
+        .find-siftitem .itembox-col2 .item:nth-child(2) {
+            width: 66.7%;
+        }
+
+    .find-siftitem .itembox-col3 .item {
+        width: 33.3%;
+    }
+
+        .find-siftitem .itembox-col3 .item:nth-child(2) {
+            width: 33.4%;
+        }
+
+    .find-siftitem .itembox .item .btn-sel {
+        margin: 0 5px;
+    }
+
+    .find-siftitem .itembox .item-current .btn-sel::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: #374053;
+        position: absolute;
+        left: 50%;
+        margin-left: -6px;
+        bottom: -14px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+    }
+
+    .find-siftitem .itemsub {
+        margin: 8px 0 0;
+    }
+
+.find-siftempty {
+    margin: 12px 10px;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+    .find-siftempty .empty {
+        float: right;
+    }
+
+    .find-siftempty .icon-empty {
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin: 0 2px 0 0;
+        background-position: 0 -40px;
+    }
+
+    .find-siftempty a.suggest {
+        float: left;
+        color: #f84949;
+        text-decoration: underline;
+    }
+
+        .find-siftempty a.suggest:visited {
+            color: #f84747;
+            text-decoration: underline;
+        }
+
+.find-mallport {
+    overflow: hidden;
+}
+
+    .find-mallport .btn-small-orange {
+        float: right;
+        margin: 0 10px 11px 10px;
+        padding: 4px 7px;
+        background: #fe6600;
+        border-color: #fe6600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #fff;
+    }
+
+        .find-mallport .btn-small-orange:visited {
+            color: #fffffe;
+        }
+
+    .find-mallport .mallport-info {
+        float: right;
+        padding: 5px 0;
+        font-size: 12px;
+        color: #a2a6ae;
+        line-height: 18px;
+    }
+
+        .find-mallport .mallport-info b {
+            font-weight: normal;
+            color: #fe6600;
+        }
+
+.dropdown01-mult .checkbox {
+    display: block;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+    .dropdown01-mult .checkbox input {
+        vertical-align: -1px;
+    }
+
+.dropdown01-mult .confirm {
+    width: 45%;
+    margin: 0 auto;
+    padding: 5px 0;
+    clear: both;
+}
+
+.title01 .fold {
+    float: right;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #3b5998;
+    line-height: 1.0;
+}
+
+.title01 .arrow-top, .title01 .arrow-bottom {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin: 0 12px 0 8px;
+    background: none;
+    border: solid;
+    border-width: 0 5px 5px;
+    border-color: transparent transparent #777d8b;
+    vertical-align: 3px;
+}
+
+.title01 .arrow-bottom {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}

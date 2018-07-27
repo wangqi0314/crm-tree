@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EmployeeManage.aspx.cs" Inherits="handler_Reports_EmployeeManage" %>

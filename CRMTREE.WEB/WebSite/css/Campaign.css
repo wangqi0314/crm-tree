@@ -1,0 +1,10 @@
+﻿body {
+}
+
+.Integer { width: 80px; height: 20px; border: #999 1px solid;float:left;margin-left:2px;margin-right:20px;}
+.text { width: 149px; height: 20px; border: #999 1px solid;float:left;margin-left:2px;margin-right:20px;}
+.selects{width:150px;height:25px; border: #999 1px solid;float:left;margin-left:2px;margin-right:20px;}
+.InfoRight{float:left;width:600px;text-align: left;}
+.Paramterslist {}
+.Paramterslist .Items{width: 1000px;height:30px;}
+.Items_Title{width: 380px; float: left; text-align: right;}

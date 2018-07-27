@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+警告: 请勿修改此文件，它将用于 Web 发布过程。
+
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0652b643-5e77-4325-bda9-c321bf6f5ced}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/WebSite</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SourceWebProject>http://localhost:4243</SourceWebProject>
+    <SourceWebMetabasePath>/IISExpress/7.5/LM/W3SVC/3/ROOT</SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CRMTree.Library\CRMTree.BLL\CRMTree.BLL.csproj">
+      <Project>{BBB6CEC6-B890-451B-AAE7-E4AFEF065CA9}</Project>
+      <Name>CRMTree.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CRMTree.Library\CRMTree.DAL\CRMTree.DAL.csproj">
+      <Project>{1267946A-A197-4000-B612-9A10B7EB1DF2}</Project>
+      <Name>CRMTree.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CRMTree.Library\CRMTree.Model\CRMTree.Model.csproj">
+      <Project>{34675D0D-153B-4DDD-B99B-7CE9AC9A5E3D}</Project>
+      <Name>CRMTree.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shinfotech.Library\Shinfotech.Common\Shinfotech.Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Shinfotech.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shinfotech.Library\Shinfotech.Tools\Shinfotech.Tools.csproj">
+      <Project>{54C80F87-1F09-4A9D-AB0F-7587723A8BAB}</Project>
+      <Name>Shinfotech.Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

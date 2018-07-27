@@ -1,0 +1,26 @@
+﻿.e_100width{width:100%;height:100%;padding:0px;}
+.e_p_lay{height:auto;width:98%;margin:5px 10px 0px 10px;}
+.e_p_lay_I{height: auto; width: 100%; padding: 5px 10px 5px 10px;}
+.e_ui_list{border: 1px solid groove; background-color: #F5F5F5; height: 25px; line-height: 25px; margin: 4px;}
+.e_ui_listII{border: 1px solid groove; background-color: #F5F5F5; height: 50px; line-height: 25px; margin: 4px;padding:2px;}
+.e_ui_list .I_1{vertical-align: middle}
+.e_ui_list .I_2{vertical-align: middle}
+.e_ui_list .I_3{margin-left: 20px}
+.e_ui_list input{vertical-align:middle; margin-top:0;}
+
+._Con_Cen {        }
+._Con_Cen ._Con_I{margin: 0px; padding-top: 1px}
+._Con_I hr{margin:0px;padding:0px}
+._Con_Cen ._Con_II{}
+._Con_Only_List{border: 1px solid #B1C242; margin: 4px}
+._Con_Only_List:active,._Con_Only_List:hover{border: 1px solid #B1C242; margin: 3px;-moz-box-shadow: 1px 1px 1px #888888; /* 老的 Firefox */
+box-shadow: 1px 1px 1px #888888;}
+._Con_Only_List ._Con_Header{border-bottom: 1px solid #B1C242; padding: 7px; background-color: #E5F0C9;}
+._Con_Header:active,._Con_Header:hover {background-color:#E0F892}
+._Con_Body{min-height:30px}
+._Con_Body ._Con_Body_Tools{float: right}
+._Con_Header input[type=text]{border: 1px solid #B1C242; width: 650px; height: 20px}
+._Con_Body_Content ul{list-style: none; line-height: 25px; margin: 4px}
+._Con_Body_Content ul li input[type=text]:nth-child(2){border: 1px solid #B1C242; width: 250px; height: 20px}
+._Con_Body_Content ul li input[type=text]:nth-child(4){border: 1px solid #B1C242; width: 50px; height: 20px}
+._Con_Body_Content ul li input[type=checkbox]{border: 1px solid #B1C242;vertical-align:middle; margin-top:0;}

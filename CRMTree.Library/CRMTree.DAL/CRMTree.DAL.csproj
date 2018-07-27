@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1267946A-A197-4000-B612-9A10B7EB1DF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRMTree.DAL</RootNamespace>
+    <AssemblyName>CRMTree.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DL_Advisers.cs" />
+    <Compile Include="DL_Appt_Service.cs" />
+    <Compile Include="DL_Campaign.cs" />
+    <Compile Include="DL_CamRun.cs" />
+    <Compile Include="DL_CRMhandle.cs" />
+    <Compile Include="DL_DataGrid.cs" />
+    <Compile Include="DL_PlacidData.cs" />
+    <Compile Include="DL_Dealers.cs" />
+    <Compile Include="DL_Event.cs" />
+    <Compile Include="DL_Process.cs" />
+    <Compile Include="DL_Survey.cs" />
+    <Compile Include="DL_UserEntity.cs" />
+    <Compile Include="Models\Extended\Database.cs" />
+    <Compile Include="Models\Generated\Database.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PetaPoco.cs" />
+    <Compile Include="DL_Car.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DL_Reports.cs" />
+    <Compile Include="DL_ServerHistory.cs" />
+    <Compile Include="DL_Surveys.cs" />
+    <Compile Include="DL_TabLinkList.cs" />
+    <Compile Include="DL_Wechat.cs" />
+    <Compile Include="Wechat\D_W_Wechat.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shinfotech.Library\Shinfotech.Common\Shinfotech.Common.csproj">
+      <Project>{e3d8759a-c5eb-402d-9f10-f5c6029a8d1a}</Project>
+      <Name>Shinfotech.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRMTree.Model\CRMTree.Model.csproj">
+      <Project>{34675d0d-153b-4ddd-b99b-7ce9ac9a5e3d}</Project>
+      <Name>CRMTree.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Models\Generated\Database.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Database.cs</LastGenOutput>
+    </None>
+    <None Include="Models\Generated\PetaPoco.Core.ttinclude" />
+    <None Include="Models\Generated\PetaPoco.Generator.ttinclude" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

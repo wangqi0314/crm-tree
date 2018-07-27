@@ -1,0 +1,239 @@
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('icons/filter.png') no-repeat center center;
+}
+.icon-feedback{
+    background:url('icons/feedback.ico') no-repeat center center;
+}
+.icon-sendout{
+    background:url('icons/mailsendout.ico') no-repeat center center;
+}
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('icons/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('icons/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('icons/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('icons/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('icons/large_chart.png') no-repeat center center;
+}
+
+
+
+/*Custom*/
+.icon-file{
+	background:url('icons/file.png') no-repeat center left;
+}
+.icon-select{
+	background:url('icons/select.gif') no-repeat center center;
+}
+.icon-export{
+	background:url('icons/export.png') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/edit.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/remove.gif') no-repeat center center;
+}
+.icon-copy{
+	background:url('icons/copy.png') no-repeat center center;
+}
+
+.icon-up{
+	background:url('icons/up.gif') no-repeat center center;
+}
+.icon-down{
+	background:url('icons/down.gif') no-repeat center center;
+}
+
+.icon-customer-summary{
+    background:url('/images/Customer/Summary_16.png') no-repeat center center;
+}
+.icon-customer-contacts{
+    background:url('/images/Customer/Contacts_16.png') no-repeat center center;
+}
+.icon-customer-personal{
+    background:url('/images/Customer/Personal_16.png') no-repeat center center;
+}
+.icon-customer-communications{
+    background:url('/images/Customer/Communications_16.png') no-repeat center center;
+}
+.icon-customer-associates{
+    background:url('/images/Customer/Assc_16.png') no-repeat center center;
+}
+.icon-customer-cars{
+    background:url('/images/Customer/Cars_16.png') no-repeat center center;
+}
+.icon-customer-visits{
+    background:url('/images/Customer/Visits_16.png') no-repeat center center;
+}
+
+.icon-contacts-address{
+    background:url('/images/Customer/address.png') no-repeat center center;
+}
+.icon-contacts-email{
+    background:url('/images/Customer/email.png') no-repeat center center;
+}
+.icon-contacts-message{
+    background:url('/images/Customer/message.png') no-repeat center center;
+}
+.icon-contacts-phone{
+    background:url('/images/Customer/phone.png') no-repeat center center;
+}
+.icon-contacts-table{
+    background:url('/images/ico/TableIcon.ico') no-repeat center center;
+}
+.icon-contacts-chart{
+    background:url('/images/ico/ChartIcon.ico') no-repeat center center;
+}
+.icon-selectSP {
+    background:url('icons/selectSP.png') no-repeat center center;
+}
+.icon-selectSPNo {
+    background:url('icons/selectSPNo.png') no-repeat center center;
+}
+.l-btn-24 .l-btn-icon {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.l-btn-24 .l-btn-icon {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+
+.icon-large-customer-cars{
+    background:url('/images/Customer/Cars.png') no-repeat center center;
+}
+
+.icon-man{
+	background:url('icons/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('icons/lock.png') no-repeat center center;
+}
+.icon-clear{
+	background:url('icons/clear.png') no-repeat center center;
+}
+
+.icon-incoming{
+	background:url('icons/i_Phone.png') no-repeat center center;
+}
+.icon-calling{
+	background:url('icons/o_Phone.png') no-repeat center center;
+}
+.icon-CommIcon{
+	background:url('/images/icon/CommIcon.png') no-repeat center center;
+}
+
+.icon-C_Phone{
+	background:url('/images/icon/C_Phone.png') no-repeat center center;
+}
+.icon-Cust_Det{
+	background:url('/images/icon/Cust_Det.png') no-repeat center center;
+}
+.icon-Advisor{
+	background:url('/images/icon/Advisor.png') no-repeat center center;
+}
+
+.icon-Camp_Det{
+	background:url('/images/icon/Camp_Det.png') no-repeat center center;
+}
+.icon-Less_Det{
+	background:url('/images/icon/Less_Det.png') no-repeat center center;
+}
+.icon-More_Det{
+	background:url('/images/icon/More_Det.png') no-repeat center center;
+}
+.icon-All_Det{
+	background:url('/images/icon/All_Det.png') no-repeat center center;
+}
+.icon-SNPhone{
+	background:url('/images/icon/Phone.png') no-repeat center center;
+}
+.icon-SNMess{
+	background:url('/images/icon/Mess.png') no-repeat center center;
+}
+.icon-SNeMail{
+	background:url('/images/icon/Mail.png') no-repeat center center;
+}
+.icon-SNeMail{
+	background:url('/images/icon/eMail.png') no-repeat center center;
+}

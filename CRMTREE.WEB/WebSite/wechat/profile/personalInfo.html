@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>个人信息</title>
+    <link href="/wechatcss/pintuer.css" rel="stylesheet" />
+    <link href="/wechatcss/WechatBase.css" rel="stylesheet" />
+    <script src="/wechatjs/jquery-1.10.2.min.js"></script>
+    <script src="/wechatjs/pintuer.js"></script>
+    <script src="/wechatjs/comm/wechatBase.js"></script>
+    <script src="/wechatjs/comm/wProfile.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () { init.personalInit(); });
+    </script>
+    <style type="text/css">
+    </style>
+</head>
+<body class="layout">
+    <div class="nav-head" style="height:40px;">
+        <div class="bg-main radius-none height-large text-center fixed_100 fixed-top">
+            <div class="text-sub text-big">
+                <a href="javascript:history.go(-1);" class="button bg-sub margin-little float-left">返回</a>
+                <span style="margin-left:-60px">个人信息</span>
+                <!--<div class="float-right">
+                    <a class="nav-mini-btn" href="javascript:void(0);" id="nav">
+                        <img class="img-responsive aligncenter" src="/wechatimages/img-navmini.png" />
+                    </a>
+                    <div class="nav-mini-pop pop-opacity fn-hide" id="divnav">
+                        <a href="#/">首页</a>
+                        <a href="/wechat/Car/AllCar.aspx">找车</a>
+                        <a href="/wechat/WAppointment/ServiceApp.aspx">预约</a>
+                        <i class="icon-opacity-arrow arrow-top"></i>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div class="height-large fixed_100">**</div>
+    </div>
+    <div class="panel radius-none">
+        <div class="panel-body form-x padding">
+            <div class="text-center text-red ts"></div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="addon"><span class="text-dot">*</span>你的姓名:</span>
+                    <input type="text" class="input" id="userName" name="_p" maxlength="30" placeholder="姓名" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="addon"><span class="text-dot">*</span>你的电话:</span>
+                    <input type="number" class="input" id="userPhone" name="_p" maxlength="11" placeholder="电话" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="addon width_95"><span class="text-dot">*</span>出生日期:</span>
+                    <input type="date" class="input" id="birthday" name="_p" placeholder="生日" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="addon width_95"><span class="text-dot">*</span>你的性别:</span>
+                    <div class="button-group radio">
+                        <label class="_se_01 button active">
+                            <input name="_p" value="false" checked="checked" type="radio" />
+                            <span class="icon icon-check"></span> 男
+                        </label>
+                        <label class="_se_02 button">
+                            <input name="_p" value="true" type="radio" />
+                            <span class="icon icon-check"></span> 女
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-red ts"></div>
+        </div>
+        <div class="panel-foot text-right"><button class="button bg-mix" id="_save">保存</button></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,226 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>我的预约</title>
+    <link href="/wechatcss/pintuer.css" rel="stylesheet" />
+    <link href="/wechatcss/WechatBase.css" rel="stylesheet" />
+    <script src="/wechatjs/jquery-1.10.2.min.js"></script>
+    <script src="/wechatjs/pintuer.js"></script>
+    <script src="/wechatjs/comm/wechatBase.js"></script>
+    <script src="/wechatjs/comm/wApps.js"></script>
+    <style type="text/css">
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () { init.App_Modify(); });
+    </script>
+</head>
+<body class="layout">
+    <!-- page1 主信息页面-->
+    <div id="page1">
+        <!-- 头部固定导航-->
+        <div class="nav-head">
+            <div class="bg-main radius-none fixed-top fixed_100">
+                <div class="h-b-fixed">
+                    <a href="javascript:history.go(-1);" class="button bg-sub margin-little ">返回</a>
+                </div>
+                <div class="text-sub text-big text-center">
+                    <span>我的预约</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel radius-none">
+            <div id="App_Modify" class="panel-body form-x padding">
+                <input type="hidden" id="AU_Code" value="" />
+                <input type="hidden" id="AP_Code" value="" />
+                <div class="text-center text-red ts"></div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">我的爱车:</span>
+                        <input type="text" class="input" id="AP_Car" placeholder="选择我的爱车" value="" readonly="readonly" />
+                        <input type="hidden" id="CI_Code" value="" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">&nbsp;经 销 商:</span>
+                        <input type="text" class="input" id="AP_Dealers" placeholder="选择经销商" value="" readonly="readonly" />
+                        <input type="hidden" id="AD_Code" value="" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">预约时间:</span>
+                        <input type="datetime-local" class="input" id="AP_Time" value="" />
+                        <!-- datetime-local -->
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">选择顾问:</span>
+                        <input type="text" class="input" id="AP_Adviser" placeholder="选择顾问" value="" readonly="readonly" />
+                        <input type="hidden" id="SA_Selected" value="" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">预约类型:</span>
+                        <input type="text" class="input" id="AP_Type" placeholder="选择类型" value="" readonly="readonly" />
+                        <textarea id="AP_Note" rows="5" maxlength="50" class="input hidden" placeholder="你可以有50字的留言"></textarea>
+                        <input type="hidden" id="SC_Code" value="" />
+                        <input type="hidden" id="ST_Code" value="" />
+                        <input type="hidden" id="MP_Code" value="" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">交通方式:</span>
+                        <select class="input" id="AP_Tran" readonly="readonly"></select>
+                    </div>
+                </div>
+                <a id="New_save" href="javascript:void(0);" class="button button-block bg-sub margin-little text-center">预约</a>
+            </div>
+        </div>
+    </div>
+    <div id="page2" style="display:none">
+        <div class="nav-head">
+            <div class="bg-main radius-none fixed-top fixed_100">
+                <div class="h-b-fixed">
+                    <a href="javascript:void(0);" class="button bg-sub margin-little BACK_01">返回</a>
+                </div>
+                <div class="text-sub text-big text-center">
+                    <span>我的车辆信息</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel radius-none">
+            <div id="Car_Select" class="padding">
+            </div>
+        </div>
+    </div>
+    <div id="page3" style="display:none">
+        <div class="nav-head">
+            <div class="bg-main radius-none fixed-top fixed_100">
+                <div class="h-b-fixed">
+                    <a href="javascript:void(0);" class="button bg-sub margin-little BACK_02">返回</a>
+                </div>
+                <div class="text-sub text-big text-center">
+                    <span>经销商信息</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel radius-none">
+            <div id="Dealers_Select" class="padding"></div>
+        </div>
+    </div>
+    <div id="page4" style="display:none">
+        <div class="nav-head">
+            <div class="bg-main radius-none fixed-top fixed_100">
+                <div class="h-b-fixed">
+                    <a href="javascript:void(0);" class="button bg-sub margin-little BACK_03">返回</a>
+                </div>
+                <div class="text-sub text-big text-center">
+                    <span>顾问信息</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel radius-none">
+            <input type="hidden" id="Adviser_SumPage" value="1" />
+            <input type="hidden" id="Adviser_Page" value="1" />
+            <div id="Adviser_Select" class="padding"></div>
+        </div>
+    </div>
+    <div id="page5" style="display:none">
+        <div class="nav-head">
+            <div class="bg-main radius-none fixed-top fixed_100">
+                <div class="h-b-fixed">
+                    <a href="javascript:void(0);" class="button bg-sub margin-little float-left BACK_04">返回</a>
+                </div>
+                <div class="text-sub text-big text-center">
+                    <span>预约类型</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel radius-none">
+            <div id="Adviser_Select" class="padding">
+                <div class="text-center text-red ts_f"></div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">预约类别:</span>
+                        <select class="input" id="SC_Code_S" readonly="readonly">
+                            <option>Select</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">预约类型:</span>
+                        <select class="input" id="ST_Code_S" readonly="readonly">
+                            <option>Select</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="MP_Code_S" class="form-group text-right hidden">
+                    <ul id="MP_Item" class="list-equity_01">
+                        <li class="radius-big">
+                            <label><input type="radio" name="MP_I" value="1" /> 标准套餐</label>
+                        </li>
+                        <li class="radius-big">
+                            <label><input type="radio" name="_p" value="2" /> 白银套餐</label>
+                        </li>
+                        <li class="radius-big">
+                            <label><input type="radio" name="_p" value="3" /> 黄金套餐</label>
+                        </li>
+                        <li class="radius-big">
+                            <label><input type="radio" name="_p" value="4" /> 至尊套餐</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-group">
+                    <div class="label"><label>留言</label></div>
+                    <div class="field">
+                        <textarea rows="5" class="input" id="AP_Note_S" placeholder="可以有50字以内的附加信息"></textarea>
+                    </div>
+                </div>
+                <div class="text-center text-red ts_f"></div>
+                <a href="javascript:void(0);" id="ServiceConfirm" class="button button-block bg-sub margin-little text-center">确认</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button style="display:none" id="select_adviser_dialog" data-1="1" class="button button-little border-gray dialogs" data-toggle="click" data-target="#mydialog" data-mask="1" data-width="90%">
+            <span class="icon-bars margin-small-right"></span>选择顾问
+        </button>
+        <div id="mydialog">
+            <div class="dialog">
+                <div id="show_info_dialog" class="dialog-body">
+                    对话框内容
+                </div>
+                <div class="dialog-foot">
+                    <button class="button dialog-close">取消</button>
+                    <button id="confirmAll" class="button bg-green">确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button style="display:none" id="check_adviser_time" data-1="1" class="button button-little border-gray dialogs" data-toggle="click" data-target="#checkDialog" data-mask="1" data-width="90%">
+            <span class="icon-bars margin-small-right"></span>选择顾问
+        </button>
+        <div id="checkDialog">
+            <div class="dialog">
+                <div id="show_info" class="dialog-body">
+                    对话框内容
+                </div>
+                <div class="dialog-foot">
+                    <button class="button bg-green dialog-close">确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

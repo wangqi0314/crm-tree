@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUS_Cont1" xml:space="preserve">
+    <value>上海思树信息科技有限公司拥有一支资深的软件设计、开发团队，利用成熟的硅谷技术，结合国内汽车市场专业市场，为中国汽车售后市场量身定做一套客户关系管理、营销和运营系统，旨在为汽车整车厂和经销商维护客户关系，提升售后产值。</value>
+  </data>
+  <data name="AboutUS_Cont2" xml:space="preserve">
+    <value>CRM Tree aggregates and manages data from dealerships so you can focus on serving and growing your customer base. Evaluate and report on the effectiveness of your CRM activities and ROI to optimize operational efficiency. Reach your business goals faster.</value>
+  </data>
+  <data name="AboutUS_Cont3" xml:space="preserve">
+    <value>公司核心创业团队包括中国汽车行业资深咨询管理专家，美国硅谷汽车软件设计专家，来自厂家、经销商集团、经销商和国内各大汽车咨询公司的特约顾问，以及负责数据库及数据结构安全的特聘美国顾问；我们的开发团队曾为各个主机厂提供软件系统开发服务。</value>
+  </data>
+  <data name="AboutUS_Cont4" xml:space="preserve">
+    <value>我们开发的汽车经销商运营管理系统软件将成为市场上第一个针对经销商售后运营和营销管理的软件系统。</value>
+  </data>
+  <data name="AboutUS_Title1" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="AboutUS_Title2" xml:space="preserve">
+    <value>Our approach</value>
+  </data>
+  <data name="AboutUS_Title3" xml:space="preserve">
+    <value>我们的团队</value>
+  </data>
+  <data name="AboutUS_Title4" xml:space="preserve">
+    <value>我们的优势</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="Contact_Title" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="Cont_Cont1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cont_Cont2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cont_Title1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cont_Title2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Cont1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Cont2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Cont3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Title" xml:space="preserve">
+    <value>Privacy, Terms &amp; Conditions</value>
+  </data>
+  <data name="Privacy_Title1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Title2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Title3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Products_Cont1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Products_Cont1_1" xml:space="preserve">
+    <value>销售管理板块提供对不同销售客户的管理模式，包括展厅客流管理、试乘试驾管理、客户偏好管理，客户评级等，帮助您有效发掘潜在客户，维系忠诚客户。</value>
+  </data>
+  <data name="Products_Cont1_2" xml:space="preserve">
+    <value>售后版块支持自动化的售后预约和提醒、售后回访等功能。</value>
+  </data>
+  <data name="Products_Cont1_3" xml:space="preserve">
+    <value>通过活动管理板块，您可自由设计、管理您的店内经销商运营活动，并通过平台，将店内活动通过微信、短信、电话等不同形式，推送给针对性的客户；平台中也已有大量的活动模板可供您选择，或者您可以选择自定义活动模板。此外，活动版块也可协助您追踪不同活动的效果。</value>
+  </data>
+  <data name="Products_Cont1_4" xml:space="preserve">
+    <value>通过我们的系统，可以对经销商/厂家的车主会员进行统一管理，针对不同的经销商自定义其积分体系，实现线上积分的累积、使用和转移。</value>
+  </data>
+  <data name="Products_Cont1_5" xml:space="preserve">
+    <value>我们的基本报告包括关键绩效指标（KPI)追踪，投资回报率（ROI）分析，运营绩效评估，顾客消费行为研究和收益分析报告；您也可以根据您的要求自定义您需要的报告。</value>
+  </data>
+  <data name="Products_Title" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Products_Title1" xml:space="preserve">
+    <value>CRM Tools</value>
+  </data>
+  <data name="Products_Title1_1" xml:space="preserve">
+    <value>销售管理</value>
+  </data>
+  <data name="Products_Title1_2" xml:space="preserve">
+    <value>售后管理</value>
+  </data>
+  <data name="Products_Title1_3" xml:space="preserve">
+    <value>活动管理</value>
+  </data>
+  <data name="Products_Title1_4" xml:space="preserve">
+    <value>会员管理</value>
+  </data>
+  <data name="Products_Title1_5" xml:space="preserve">
+    <value>报告管理</value>
+  </data>
+  <data name="Services_Cont0" xml:space="preserve">
+    <value>我们团队的成员有世界知名的汽车零售咨询专家，为国内外汽车市场提供专业的商业分析报告。我们的咨询团队能够帮助您应对不同的市场挑战：&lt;UL style="height:100px"&gt;
+&lt;li&gt;设计、实施、监控活动方案&lt;/li&gt;
+&lt;li&gt;根据您的需求自定义报告&lt;/li&gt;
+&lt;li&gt;设计、分析客户调研&lt;/li&gt;
+&lt;li&gt;提升销售/售后运营能力的方案&lt;/li&gt;
+&lt;li&gt;客户购买行为分析&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont1" xml:space="preserve">
+    <value>针对不同客户群体，提供个性化的服务，才能有效的维系客户关系；通过客户偏好进行分析，了解不同客户的需求，开启您的自定义客户管理体系。
+&lt;ul&gt;&lt;li&gt;谁是我的潜在客户和忠诚客户？
+&lt;/li&gt;&lt;li&gt;我能为我的客户提供什么产品和服务？
+&lt;/li&gt;&lt;li&gt;我的客户倾向于通过什么途径来联系我？
+&lt;/li&gt;&lt;li&gt;我的客户的购买行为是怎样的？
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont2" xml:space="preserve">
+    <value>无论是忠诚客户，还是不活跃客户，您都可以在他们心中建立品牌价值，通过一系列自定义的营销活动，为您的客户提供产品和服务，将您与客户紧密的联系在一起，并提升客户满意度。
+&lt;ul&gt;&lt;li&gt;怎样的活动可以赢回不活跃的客户？
+&lt;/li&gt;&lt;li&gt;如何有效维持忠诚客户？
+&lt;/li&gt;&lt;li&gt;哪种服务套餐可以在经销商效益及客户关注度上达到最优？
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont3" xml:space="preserve">
+    <value>拓展客户群体，推送有效的营销活动信息、活动计划和会员积分计划，通过软件平台、培训、流程管理，提升您的销售/售后团队
+&lt;ul&gt;&lt;li&gt;如何拓展客户群体？
+&lt;/li&gt;&lt;li&gt;销售和售后的共同机遇是什么？
+&lt;/li&gt;&lt;li&gt;如何在我的竞争对手中脱颖而出？
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont4" xml:space="preserve">
+    <value>选择我们的管理工具将有助于您：
+&lt;ul&gt;&lt;li&gt;提升客户满意度
+&lt;/li&gt;&lt;li&gt;赢得客户推荐
+&lt;/li&gt;&lt;li&gt;挽回流失客户
+&lt;/li&gt;&lt;li&gt;获得潜在客户
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Services_Title" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Services_Title1" xml:space="preserve">
+    <value>孕育</value>
+  </data>
+  <data name="Services_Title2" xml:space="preserve">
+    <value>滋养</value>
+  </data>
+  <data name="Services_Title3" xml:space="preserve">
+    <value>成长</value>
+  </data>
+  <data name="Services_Title4" xml:space="preserve">
+    <value>收获</value>
+  </data>
+  <data name="Services_Title5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Contact_Cont1" xml:space="preserve">
+    <value>
+&lt;BR&gt;&lt;B&gt;公司地址：&lt;/B&gt;上海市鲁班路600号江南造船大厦1606室&lt;BR&gt;&lt;BR&gt;
+
+
+&lt;B&gt;电话：&lt;/B&gt;+86 21 63025999&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;传真：&lt;/B&gt;+86 21 63021222&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;邮件：&lt;/B&gt;Sales@Shunovo.com</value>
+  </data>
+  <data name="LoginTitel" xml:space="preserve">
+    <value>Shunovo</value>
+  </data>
+</root>

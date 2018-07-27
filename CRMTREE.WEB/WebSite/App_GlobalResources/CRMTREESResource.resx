@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CampaginCon2" xml:space="preserve">
+    <value>请选择方法</value>
+  </data>
+  <data name="CampaginCon3" xml:space="preserve">
+    <value>请选择</value>
+  </data>
+  <data name="CampaginCon4" xml:space="preserve">
+    <value>Campagin消息文件名</value>
+  </data>
+  <data name="CampaginCon5" xml:space="preserve">
+    <value>请选择活动成功衡量指标</value>
+  </data>
+  <data name="CampaginCon6" xml:space="preserve">
+    <value>请上传文件</value>
+  </data>
+  <data name="CampaginCon7" xml:space="preserve">
+    <value>请选择日期</value>
+  </data>
+  <data name="CampaginCon8" xml:space="preserve">
+    <value>请输入标题</value>
+  </data>
+  <data name="CampaginCon9" xml:space="preserve">
+    <value>请输入描述</value>
+  </data>
+  <data name="CampaginCT" xml:space="preserve">
+    <value>目标客户</value>
+  </data>
+  <data name="CampaginEMail" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="CampaginMailers" xml:space="preserve">
+    <value>邮件</value>
+  </data>
+  <data name="CampaginSAVE" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="CampaginSM" xml:space="preserve">
+    <value>成功衡量指标</value>
+  </data>
+  <data name="CampaginSurvey" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="CampaginUpdate" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="CampagonBL" xml:space="preserve">
+    <value>返回上一页</value>
+  </data>
+  <data name="CampaignAutomated" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="CampaignBasicInformation" xml:space="preserve">
+    <value>基本资料</value>
+  </data>
+  <data name="CampaignBothof" xml:space="preserve">
+    <value>以上两个</value>
+  </data>
+  <data name="CampaignCon1" xml:space="preserve">
+    <value>请选择人的电话</value>
+  </data>
+  <data name="CampaignCRMTree" xml:space="preserve">
+    <value>ShuNovo</value>
+  </data>
+  <data name="CampaignDASHBOARD" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="Campaignday" xml:space="preserve">
+    <value>每天运行</value>
+  </data>
+  <data name="CampaignDealer" xml:space="preserve">
+    <value>经销商</value>
+  </data>
+  <data name="CampaignDescription" xml:space="preserve">
+    <value>活动描述</value>
+  </data>
+  <data name="CampaignEdit" xml:space="preserve">
+    <value>修改活动</value>
+  </data>
+  <data name="Campaignfrequency" xml:space="preserve">
+    <value>频率：</value>
+  </data>
+  <data name="CampaignInperson" xml:space="preserve">
+    <value>私人</value>
+  </data>
+  <data name="CampaignList" xml:space="preserve">
+    <value>活动列表</value>
+  </data>
+  <data name="CampaignMethod" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="CampaignPhoneCalls" xml:space="preserve">
+    <value>电话：</value>
+  </data>
+  <data name="CampaignSales" xml:space="preserve">
+    <value>促销活动</value>
+  </data>
+  <data name="CampaignScriptedmessage" xml:space="preserve">
+    <value>微信</value>
+  </data>
+  <data name="CampaignService" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="CampaignSinglemessage" xml:space="preserve">
+    <value>单独消息</value>
+  </data>
+  <data name="CampaignText" xml:space="preserve">
+    <value>文本：</value>
+  </data>
+  <data name="Campaigntime" xml:space="preserve">
+    <value>运行一段时间</value>
+  </data>
+  <data name="CampaignTitle" xml:space="preserve">
+    <value>活动标题</value>
+  </data>
+  <data name="CampaignType" xml:space="preserve">
+    <value>活动类型</value>
+  </data>
+  <data name="topLogo" xml:space="preserve">
+    <value>每一个细节上的创新</value>
+  </data>
+  <data name="topSearch" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="topSignout" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="topWelcome" xml:space="preserve">
+    <value>欢迎光临！</value>
+  </data>
+  <data name="LoginAssessment" xml:space="preserve">
+    <value>评估</value>
+  </data>
+  <data name="LoginBtLogin" xml:space="preserve">
+    <value>登陆</value>
+  </data>
+  <data name="LoginCon1" xml:space="preserve">
+    <value>Shunovo使用活动的调查以及确切的客户信息信息，帮助您把客户带回商店，并且使他们满意您的服务。</value>
+  </data>
+  <data name="LoginCon2" xml:space="preserve">
+    <value>我们用技术和培训力量把您的业绩和服务提高一个级别。</value>
+  </data>
+  <data name="LoginCon3" xml:space="preserve">
+    <value>通过一系列定制化的活动，您可以给您的客户提供产品和服务，使他们满意并且提高回访率。</value>
+  </data>
+  <data name="LoginCon4" xml:space="preserve">
+    <value>Shunovo提供客户即时表现的关键特征，帮助您调整最佳的策略和资源。</value>
+  </data>
+  <data name="LoginCon5" xml:space="preserve">
+    <value>达到你的目标更快的减少成本</value>
+  </data>
+  <data name="LoginEfficiencies" xml:space="preserve">
+    <value>效率</value>
+  </data>
+  <data name="LoginEngage" xml:space="preserve">
+    <value>参与</value>
+  </data>
+  <data name="LoginGlobalco" xml:space="preserve">
+    <value>全球有限公司</value>
+  </data>
+  <data name="LoginLiuldala" xml:space="preserve">
+    <value>LIUL过程</value>
+  </data>
+  <data name="Loginlower1" xml:space="preserve">
+    <value>经验丰富的专业人士</value>
+  </data>
+  <data name="Loginlower2" xml:space="preserve">
+    <value>我们的服务</value>
+  </data>
+  <data name="Loginlower3" xml:space="preserve">
+    <value>奖状</value>
+  </data>
+  <data name="Loginlower4" xml:space="preserve">
+    <value>CRM培训</value>
+  </data>
+  <data name="Loginlower5" xml:space="preserve">
+    <value>KPI衡量</value>
+  </data>
+  <data name="Loginlower6" xml:space="preserve">
+    <value>数据整合和分析</value>
+  </data>
+  <data name="Loginlower7" xml:space="preserve">
+    <value>遍布各地的咨询专家</value>
+  </data>
+  <data name="Loginlower8" xml:space="preserve">
+    <value>我们的专业团队包括2名MBA，1名销售流程专家及1名客户留存专家，以及多名数据整合专家。</value>
+  </data>
+  <data name="Loginlower9" xml:space="preserve">
+    <value>我们向您承诺我们能提供的一切；我们长期拥有良好的客户口碑。</value>
+  </data>
+  <data name="LoginName" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="LoginPassword" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="LoginPlanning" xml:space="preserve">
+    <value>规划</value>
+  </data>
+  <data name="LoginReadMore" xml:space="preserve">
+    <value>阅读更多</value>
+  </data>
+  <data name="LoginReadMore1" xml:space="preserve">
+    <value>阅读更多</value>
+  </data>
+  <data name="LoginReadMore2" xml:space="preserve">
+    <value>阅读更多</value>
+  </data>
+  <data name="LoginReadMore3" xml:space="preserve">
+    <value>阅读更多</value>
+  </data>
+  <data name="LoginTitel" xml:space="preserve">
+    <value>Shunovo 登陆</value>
+  </data>
+  <data name="LoginFoot1" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="LoginFoot2" xml:space="preserve">
+    <value>隐私和条款</value>
+  </data>
+  <data name="LoginFoot3" xml:space="preserve">
+    <value>经过</value>
+  </data>
+  <data name="LoginFoot4" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="LoginFoot5" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="CampaginCon10" xml:space="preserve">
+    <value>请上传文件</value>
+  </data>
+  <data name="LoginHelp" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="LoginAbout" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="LoginContact" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="LoginHome" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="LoginPrivacy" xml:space="preserve">
+    <value>隐私和条款</value>
+  </data>
+  <data name="LoginProducts" xml:space="preserve">
+    <value>产品</value>
+  </data>
+  <data name="LoginServices" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="ScrollMess1" xml:space="preserve">
+    <value>为您维护客户关系，带来更多新的客户</value>
+  </data>
+  <data name="ScrollMess2" xml:space="preserve">
+    <value>为您维护客户关系，带来更多新的客户</value>
+  </data>
+  <data name="ScrollMess3" xml:space="preserve">
+    <value>创新带来增长！</value>
+  </data>
+  <data name="ScrollMess4" xml:space="preserve">
+    <value>通过我们，定制化您的创新产品！</value>
+  </data>
+  <data name="ScrollMess5" xml:space="preserve">
+    <value>助您以更低的成本，更迅速的实现您的业务目标</value>
+  </data>
+  <data name="ScrollMess6" xml:space="preserve">
+    <value>助您以更低的成本，更迅速的拓展您的业务</value>
+  </data>
+  <data name="CampProvideFile" xml:space="preserve">
+    <value>请上传或创建活动文件</value>
+  </data>
+  <data name="CampSelectTarget" xml:space="preserve">
+    <value>请选择活动目标客户</value>
+  </data>
+  <data name="CampaginDekuApp" xml:space="preserve">
+    <value>Daeku App</value>
+  </data>
+  <data name="CampaginSurveySur" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="CampaignActive" xml:space="preserve">
+    <value>是否激活</value>
+  </data>
+  <data name="CampaignSalesCam" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="CampaignScriptedWeibo" xml:space="preserve">
+    <value>微博</value>
+  </data>
+  <data name="CampaignScriptStd" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="CampaignShare" xml:space="preserve">
+    <value>是否分享</value>
+  </data>
+  <data name="CampaignTextHtml" xml:space="preserve">
+    <value>页面</value>
+  </data>
+  <data name="CampaignTextScript" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="CampaignTextSun" xml:space="preserve">
+    <value>纯文本</value>
+  </data>
+  <data name="CampaignTextVoice" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="EventBudget" xml:space="preserve">
+    <value>预算</value>
+  </data>
+  <data name="EventContact" xml:space="preserve">
+    <value>联系</value>
+  </data>
+  <data name="EventDate" xml:space="preserve">
+    <value>活动时间</value>
+  </data>
+  <data name="EventDuration" xml:space="preserve">
+    <value>持续</value>
+  </data>
+  <data name="EventGenre" xml:space="preserve">
+    <value>风格</value>
+  </data>
+  <data name="EventMarketing" xml:space="preserve">
+    <value>市场</value>
+  </data>
+  <data name="EventMessageFile" xml:space="preserve">
+    <value>消息文件</value>
+  </data>
+  <data name="EventNo" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="EventPersonResponse" xml:space="preserve">
+    <value>负责人</value>
+  </data>
+  <data name="EventRSVP" xml:space="preserve">
+    <value>是否需要回复</value>
+  </data>
+  <data name="EventSales" xml:space="preserve">
+    <value>销售</value>
+  </data>
+  <data name="EventService" xml:space="preserve">
+    <value>售后</value>
+  </data>
+  <data name="EventTarSp" xml:space="preserve">
+    <value>__</value>
+  </data>
+  <data name="EventYes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>技术支持</value>
+  </data>
+  <data name="EventRecommendedools" xml:space="preserve">
+    <value>推荐工具</value>
+  </data>
+  <data name="ListOfReports" xml:space="preserve">
+    <value>报告列表</value>
+  </data>
+  <data name="SelecetTemplate" xml:space="preserve">
+    <value>使用选定的模板进行编辑</value>
+  </data>
+  <data name="SelectBlank" xml:space="preserve">
+    <value>使用空白模板进行编辑</value>
+  </data>
+  <data name="TemplList" xml:space="preserve">
+    <value>促销活动模板列表</value>
+  </data>
+  <data name="FormText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>无可用数据 !</value>
+  </data>
+  <data name="ChartsTab" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="ReportsTab" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="TablesTab" xml:space="preserve">
+    <value>表格 </value>
+  </data>
+  <data name="TemplList2" xml:space="preserve">
+    <value>提醒模板列表</value>
+  </data>
+  <data name="TemplList3" xml:space="preserve">
+    <value>调研模板列表</value>
+  </data>
+  <data name="VINFile" xml:space="preserve">
+    <value>VIN文件</value>
+  </data>
+  <data name="LoginExpired" xml:space="preserve">
+    <value>您的登录会话已过期。请重新登录。</value>
+  </data>
+  <data name="LoginReminder" xml:space="preserve">
+    <value>我的提醒</value>
+  </data>
+</root>

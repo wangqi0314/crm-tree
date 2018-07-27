@@ -1,0 +1,46 @@
+﻿/*    __reset
+----------------------------------------------*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+body,button,input,select,textarea{font-family:arial,sans-serif;font-size:12px;line-height:normal;color:#333;}
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+.tl{text-align:left;}.tc{text-align:center;}.tr{text-align:right;}.vm{vertical-align:middle;}
+.w40{width:40px;}.w45{width:45px;}.w55{width:55px;}.w70{width:70px;}.w75{width:75px;}.w80{width:80px;}.w100{width:100px;}.w170{width:170px;}.w200{width:200px;}.w345{width:345px;}.w420{width:420px;}
+.w120{width:120px;}.w150{width:150px;}
+
+/*    __print
+----------------------------------------------*/
+.receipt{width:710px;height:360px;padding-left:90px;margin:0 auto;/* background:url(/images/receipt/receipt.png) no-repeat 30px 0; */}
+.table{width:100%;}
+.printbox{width:665px;}
+.title{height:40px;font-weight:700;text-align:center;vertical-align:middle;font-size:14pt;}
+.pagination{height:40px;vertical-align:top;}
+.dataInfo{height:30px;vertical-align:middle;}
+.detail{/* height:325px;padding:10px;border:solid 1px #000; */vertical-align:top;}
+.foot{height:25px;}
+.vm25{height:25px;vertical-align:middle;}
+.vm30{height:30px;vertical-align:middle;}
+.td{padding-top:3px;padding-bottom:3px;vertical-align:middle;line-height:normal;}
+.plr5{padding-left:5px;padding-right:5px;}
+.itemTable{width:100%;}
+.itemTh,
+.itemTd{line-height:1.586;padding:0 5px;border:1px solid #000;}
+.itemTh{font-size:10pt;}
+.itemPrice{padding-right:15px;text-align:right;}
+.button{text-align:center;/* padding-top:20px; */}
+.button input,.button a{cursor:pointer;width:95px;height:34px;line-height:34px;text-align:center;border:0 none;color:#333;background:url(/images/icon/btn.png) no-repeat -100px -400px; vertical-align:middle;}
+.button input:hover,
+.button a:hover{background-position:100% -400px;}
+.button a{display:inline-block;*display:inline;*zoom:1;text-decoration:none;}
+.tips{float:right;padding:3px;border:solid 1px #000;font-size:10pt;}
+.receipt_tit{font-size:13pt;color:#000;padding-left:200px;font-weight:700;}
+
+.border1{border:solid #000;border-width:1px 1px 0 1px;}
+.border2{border:solid #000;border-width:0 1px;}
+.border3{border:solid 1px #000;}

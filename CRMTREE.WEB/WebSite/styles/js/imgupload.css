@@ -1,0 +1,24 @@
+﻿.Priview{ width:210px;height:210px;}
+.Box 
+{
+    border:#ccc 1px solid;
+    _border:0px;
+    padding:2px 2px 2px 2px;
+    _padding:0px;
+    width:210px;
+    height:210px;
+    margin-bottom:5px;
+    _margin-bottom:5px;
+    _margin-right:6px;    
+}
+
+input.file100 
+{
+    width:215px;
+    _width:210px;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color: #111111;
+    font-family: 'Lucida Sans',"宋体",'Trebuchet MS','Lucida Grande','Bitstream Sans Vera',Verdana,Arial,Tahoma,Helvetica,Sans-Serif;
+    font-size: 100%;
+}

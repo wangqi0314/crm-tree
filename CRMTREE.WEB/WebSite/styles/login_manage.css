@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body { font-family:Arial, Helvetica, sans-serif; font-size:12px;  color:#555; margin:0; padding:0; }
+ul,ol,li { padding:0; margin:0; list-style:none}
+a,div,font,table,tr,td,input,p { font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+img { border:none}
+form,p { padding:0; margin:0;}
+.fl { float:left;}
+.fr { float:right;}
+.cl { clear:both}
+
+#top { background:url(/images/logo_daeku.png) no-repeat center; border-bottom:4px solid #8ec3f5; height:124px;}
+#container { background:#ebebeb;text-align:center;}
+#content { margin:0 auto; text-align:left; }
+#content .login_box { background:url(/images/ad_con_bg1.jpg) no-repeat bottom; text-align:center;margin-top:20px;}
+#content .login_box .login_cont { width:378px; margin:0 auto; text-align:left; height:244px;}
+.box_bg_l { width:6px; height:244px; overflow:hidden; float:left; background:url(/images/l_bg_left.png) no-repeat;}
+.box_bg_r { width:5px; height:244px; overflow:hidden; float:left; background:url(/images/l_bg_right.png) no-repeat;}
+.box_bg_m { width:317px; padding:30px 25px; height:244px; overflow:hidden; float:left; background:url(/images/l_bg_mid.png) repeat-x; overflow:hidden; zoom:1;}
+.box_bg_m ul li.title { color:#000; padding-bottom:10px; font-size:14px; font-weight:bold; border-bottom:2px solid #415e00;}
+.box_bg_m ul li.tishi { height:37px; padding-top:3px; color:#FF0000; line-height:20px; padding-left:100px;}
+.box_bg_m ul li.left_word { width:100px; text-align:right; float:left; margin-bottom:8px; display:inline; height:25px; line-height:25px;}
+.box_bg_m ul li.left_word1 { width:100px; text-align:right; float:left; margin-bottom:8px; display:inline; height:25px; line-height:25px;}
+.box_bg_m ul li.right_input { float:left; width:180px; margin-bottom:8px; display:inline; height:25px;}
+.box_bg_m ul li.menu_login { padding-left:100px; width:180px;}
+.input_text { background:#fff; border:1px solid #999; height:18px; line-height:18px; width:160px;} 
+.input_text_validate { background:#fff; border:1px solid #999; height:18px; line-height:18px; width:40px;} 
+.input_menu { background:url(/images/menu.png) no-repeat; width:70px; height:28px; font-weight:bold; color:#fff; border:none; cursor:pointer;}
+.input_Registration {border-radius:3px;background-color:#85B716; width:70px; height:28px; font-weight:bold; color:#fff; border:none; cursor:pointer;}
+.SignUp {border-radius:3px;width:70px; height:28px;background-color:#DDDDDD; font-weight:bold; color:#EC780C; border:none; cursor:pointer;}
+#content .imgbg {  height:146px; background:url(/images/ad_con_bg2.jpg) no-repeat center;}
+#foot { background:url(/images/bg_ad.jpg) repeat-x; height:48px; line-height:48px; color:#fff; text-align:center}
+
+.bottom{border: 1px solid #d2d2d2; background-color: #415e00; height: 20px; margin-bottom: 10px; text-align: center; }
+a { color:#EBEBEB; text-decoration:none;}
+a:hover { color:#94BD23; text-decoration:underline;}
+a.brown { color:#b18227;}
+a.brown:hover { color:#FFFFFF; text-decoration:underline;}
+a.black { color:#000; font-size:14px;}
+a.brown:hover { color:#b18227; text-decoration:underline;}
+
+

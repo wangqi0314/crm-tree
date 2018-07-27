@@ -1,0 +1,94 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Customer List</title>
+    <script src="/scripts/jquery/jquery-1.8.2.min.js"></script>
+    <script src="/scripts/jquery/jquery.extend.js"></script>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-size: 13px;
+            padding: 5px;
+            line-height: 1.45;
+        }
+        p,h3 {
+            margin: 0;
+            padding: 0;
+        }
+        .t {
+            font-weight: bold;
+            font-size: medium;
+            
+        }
+        img {
+            border: 0;
+            margin-top:5px;
+        }
+    </style>
+
+    <script>
+        //function loadImg(maxWidth, maxHeight) {
+        //    if (_params && _params.src) {
+        //        var $body = $('body');
+        //        var $img = $('<img src="' + _params.src + '"/>');
+        //        $body.empty();
+        //        $img.appendTo($body);
+        //        var w = $img.width();
+        //        var h = $img.height();
+
+        //        maxWidth = maxWidth ? maxWidth : 880;
+        //        maxHeight = maxHeight ? maxHeight : 510;
+
+        //        var ratio = 1;
+        //        var wRatio = maxWidth / w;
+        //        var hRatio = maxHeight / h;
+
+        //        if (maxWidth == 0 && maxHeight == 0) {
+        //            ratio = 1;
+        //        } else if (maxWidth == 0) {//
+        //            if (hRatio < 1) ratio = hRatio;
+        //        } else if (maxHeight == 0) {
+        //            if (wRatio < 1) ratio = wRatio;
+        //        } else if (wRatio < 1 || hRatio < 1) {
+        //            ratio = (wRatio <= hRatio ? wRatio : hRatio);
+        //        }
+        //        if (ratio < 1) {
+        //            w = w * ratio;
+        //            h = h * ratio;
+        //        }
+
+        //        $img.css({
+        //            "width": w,
+        //            "height": h,
+        //            "margin-left": -w / 2,
+        //            "margin-top": -h / 2
+        //        });
+        //    }
+        //}
+
+        //$(function () {
+        //    var $w = $(window);
+        //    loadImg($w.width(), $w.height());
+
+        //    $w.resize(function () {
+        //        loadImg($w.width(), $w.height());
+        //    });
+        //});
+    </script>
+</head>
+<body>
+    <h3 class="t">客户列表</h3>
+    <div>
+        1. 通过客户列表，您可以查看所有您系统中的客户及其详细的信息；<br />
+        2. 客户列表支持模糊查询，您可通过输入部分的手机号码、姓或者名中的任何字符，查询<br />
+        3. 到相应的客户；<br />
+        4. 客户列表编辑和查询功能，点击任意客户，您可获取客户的详细信息，包括联系方式、证件号码和其他个人信息，您也可以查看该客户与店内过去的所有沟通记录（包括电话、短信、邮件、微信等），客户的兴趣爱好，绑定的所有车辆信息，过去的访问记录，预约记录等；您也可以通过编辑客户信息对系统内的数据进行修改。<br />
+    </div>
+    <p>
+        <img src="/templete/help/images/Customer_List/Customer_List.png" alt="" title="" />
+    </p>
+</body>
+</html>

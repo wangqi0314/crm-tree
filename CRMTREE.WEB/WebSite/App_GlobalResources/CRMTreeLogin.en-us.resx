@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUS_Cont1" xml:space="preserve">
+    <value>Shunovo System is a comprehensive, web-based Business Inteligence (BI) solution for automotive OEMs and dealerships. We provide easy-to-use, intuitive technologies and strategic services to create meaningful customer relationships that grow your business. Our team brings decades of expertise from California’s Silicon Valley and a deeply-rooted understanding of the Chinese auto market.</value>
+  </data>
+  <data name="AboutUS_Cont2" xml:space="preserve">
+    <value>Shunovo aggregates and manages data from dealerships so you can focus on serving and growing your customer base. Evaluate and report on the effectiveness of your business activities and ROI to optimize operational efficiency. Reach your business goals faster.</value>
+  </data>
+  <data name="AboutUS_Cont3" xml:space="preserve">
+    <value>Our professional staff includes two MBAs, a certified sales process engineer, and a customer retention expert. We also have special expertise in data integration.
+Our competitive advantages Knowledge. Long before the concept of database management grew global, the talent at Shunovo had been leading development of database and internet integration in California’s Silicon Valley. Our team created some of today’s most well-received BI systems for the automotive landscape worldwide. Execution. Just as trees root deep into the earth, the core of a powerful Business Inteligence (BI) system resides in its ability to integrate a large back end database with a state of the art, user-friendly interface on the front end. And because every soil is different, we envisioned solutions specific to the Chinese market. Results. We have created a comprehensive product line with the single goal of raising dealership profitability in China.</value>
+  </data>
+  <data name="AboutUS_Cont4" xml:space="preserve">
+    <value>Knowledge. Long before the concept of database management grew global, the talent at Shunovo had been leading development of database and internet integration in California’s Silicon Valley. Our team created some of today’s most well-received Business Inteligence (BI) systems for the automotive landscape worldwide.  
+
+Execution. Just as trees root deep into the earth, the core of a powerful BI system resides in its ability to integrate a large back end database with a state of the art, user-friendly interface on the front end. And because every soil is different, we envisioned solutions specific to the Chinese market. 
+
+Results. We have created a comprehensive product line with the single goal of raising dealership profitability in China.</value>
+  </data>
+  <data name="AboutUS_Title1" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="AboutUS_Title2" xml:space="preserve">
+    <value>Our approach</value>
+  </data>
+  <data name="AboutUS_Title3" xml:space="preserve">
+    <value>Our Team</value>
+  </data>
+  <data name="AboutUS_Title4" xml:space="preserve">
+    <value>Our competitive advantages</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="Contact_Title" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="Cont_Cont1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cont_Cont2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cont_Title1" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Cont_Title2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Cont1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Cont2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Cont3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Title" xml:space="preserve">
+    <value>Privacy, Terms &amp; Conditions</value>
+  </data>
+  <data name="Privacy_Title1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Title2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Privacy_Title3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Products_Cont1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Products_Cont1_1" xml:space="preserve">
+    <value>We provide insights about customer visits to your showrooms, customer interests, and customer ratings of your staff, products, and overall experience. 
+
+Does your sales staff spend a good chunk of their day tracking customer forms from multiple touch points? Let Shunovo manage it. The Sales Branch gives you full control to automate the sales business activities.  Our tools make managing follow-up calls easy. An online appointment system manages sales department resources so you don’t have to.</value>
+  </data>
+  <data name="Products_Cont1_2" xml:space="preserve">
+    <value>From service reminders to appointment scheduling and service follow-ups, this branch of Shunovo offers a full suite of automated support.</value>
+  </data>
+  <data name="Products_Cont1_3" xml:space="preserve">
+    <value>Design, execute, and manage campaigns based on customer preferences with our Campaign Branch. Choose from a list of proven campaigns, or create a brand new one with a few clicks. Monitor campaigns and outings in real time for instant feedback so you can adjust on the fly.</value>
+  </data>
+  <data name="Products_Cont1_4" xml:space="preserve">
+    <value>Our automated system delivers fast, reliable, and comprehensive reward activity management that makes the customer experience feel truly rewarding. Booking concierge services and redeeming points for service and activities are effortless.</value>
+  </data>
+  <data name="Products_Cont1_5" xml:space="preserve">
+    <value>KPI status tracking, ROI analysis, operational effectiveness evaluations, consumer behavior investigation, and earnings simulators are just a few features of our Report Branch. If you don’t find what you are looking for in the list of the existing reports, quickly create the report you want.</value>
+  </data>
+  <data name="Products_Title" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Products_Title1" xml:space="preserve">
+    <value>Business Inteligence Tools</value>
+  </data>
+  <data name="Products_Title1_1" xml:space="preserve">
+    <value>Sales Branch</value>
+  </data>
+  <data name="Products_Title1_2" xml:space="preserve">
+    <value>Service Branch</value>
+  </data>
+  <data name="Products_Title1_3" xml:space="preserve">
+    <value>Campaign Branch</value>
+  </data>
+  <data name="Products_Title1_4" xml:space="preserve">
+    <value>Reward Branch</value>
+  </data>
+  <data name="Products_Title1_5" xml:space="preserve">
+    <value>Report Branch</value>
+  </data>
+  <data name="Services_Cont0" xml:space="preserve">
+    <value>Our team of experts is regarded as some of the best automotive retail consultants in the world. We have delivered market analyses for professional business publications within China and internationally. Our Consulting Branch connects academic disciplines with market specific frameworks to help solve your unique challenges. 
+We will help with:&lt;UL style="height:67px"&gt;
+&lt;li&gt;Design, implementation, and monitoring campaign strategies.&lt;/li&gt;
+&lt;li&gt;Creation of new reports tailored to your needs.&lt;/li&gt;
+&lt;li&gt;Design and analysis of customer surveys.&lt;/li&gt;
+&lt;li&gt;Methods to improve sales and service operations.&lt;/li&gt;
+&lt;li&gt;Analysis of customer behaviors.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont1" xml:space="preserve">
+    <value>Your customers need your care and attention.  Some customers need more, some prefer less.  The process of doing the right activity for the right customer begins with profiling and selection. Customize your needs and requirements with innovative ideas and products.
+&lt;ul&gt;&lt;li&gt;Who are my existing and potential customers?
+&lt;/li&gt;&lt;li&gt;What product and services can I offer to get their attention? 
+&lt;/li&gt;&lt;li&gt;How do they respond to my contacts? 
+&lt;/li&gt;&lt;li&gt;What are their purchase behaviors towards my sales and service products? 
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont2" xml:space="preserve">
+    <value>Loyal and inactive customers both need sincere and intensive nursing to achieve a stronger brand commitment. Shunovo delivers the system to support that process.  Through a series of fully customizable campaigns, you can offer products and services to your customers, keeping them engaged and satisfied.  Shunovo uses campaigns, surveys, and actual information from your store to help you bring customers to your store, while keeping them satisfied.
+&lt;ul&gt;&lt;li&gt;What campaigns and programs bring back inactive customers?  
+&lt;/li&gt;&lt;li&gt;How to maintain loyal customers’ business relationship without being invasive?
+&lt;/li&gt;&lt;li&gt;What type of service package optimizes dealership operations and customer retention? 
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont3" xml:space="preserve">
+    <value>Facilitate and manage the growth of customer base for effective campaign roll outs, activity planning, and reward program management is another key service area of Shunovo. We identify technology, training, and processes to take your sales and service teams to the next level. 
+&lt;ul&gt;&lt;li&gt;How do we expand our current customer base and bring in new customers into the dealership?
+&lt;/li&gt;&lt;li&gt;What are the growth opportunities across both the sales and service departments?
+&lt;/li&gt;&lt;li&gt;How do I attract customers of my competitors? 
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont4" xml:space="preserve">
+    <value>Your decision to use our intelligent and comprehensive customer management tools will allow you to enjoy the benefits of :
+&lt;ul&gt;&lt;li&gt;Increased Revenue
+&lt;UL&gt;Increased customer satisfaction
+&lt;/li&gt;&lt;li&gt;Customer Referrals 
+&lt;/li&gt;&lt;li&gt;Bringing back old customers 
+&lt;/li&gt;&lt;li&gt;Reaching new customers 
+&lt;/UL&gt;&lt;/LI&gt;
+&lt;LI&gt;Increased Profits
+&lt;UL&gt;&lt;li&gt;More efficient operation&lt;/li&gt;
+    &lt;li&gt;Setting and monitoring of KPI &lt;/li&gt;
+&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Services_Cont5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Services_Title" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Services_Title1" xml:space="preserve">
+    <value>Seeding</value>
+  </data>
+  <data name="Services_Title2" xml:space="preserve">
+    <value>Nursing</value>
+  </data>
+  <data name="Services_Title3" xml:space="preserve">
+    <value>Growing</value>
+  </data>
+  <data name="Services_Title4" xml:space="preserve">
+    <value>Harvesting</value>
+  </data>
+  <data name="Services_Title5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Contact_Cont1" xml:space="preserve">
+    <value>&lt;BR&gt;&lt;B&gt;Address:&lt;/B&gt; Unit 1606, Jiangnan Shipyard Building, 600 Luban Road, Shanghai,China&lt;BR&gt;&lt;BR&gt;
+  
+&lt;B&gt;Tel：&lt;/B&gt;+86 21 63025999&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Fax：&lt;/B&gt;+86 21 63021222&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;eMail：&lt;/B&gt;Sales@Shunovo.com</value>
+  </data>
+  <data name="LoginTitel" xml:space="preserve">
+    <value>Shunovo</value>
+  </data>
+</root>

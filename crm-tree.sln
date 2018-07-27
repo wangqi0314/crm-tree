@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shinfotech.Library", "Shinfotech.Library", "{DE3EF2EE-8DB1-48DC-A2D2-4D6069E6F549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shinfotech.Tools", "Shinfotech.Library\Shinfotech.Tools\Shinfotech.Tools.csproj", "{54C80F87-1F09-4A9D-AB0F-7587723A8BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shinfotech.Common", "Shinfotech.Library\Shinfotech.Common\Shinfotech.Common.csproj", "{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRMTree.Library", "CRMTree.Library", "{EA4A7B35-510E-4AFB-92AB-89D6F0068520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMTree.Model", "CRMTree.Library\CRMTree.Model\CRMTree.Model.csproj", "{34675D0D-153B-4DDD-B99B-7CE9AC9A5E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMTree.DAL", "CRMTree.Library\CRMTree.DAL\CRMTree.DAL.csproj", "{1267946A-A197-4000-B612-9A10B7EB1DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMTree.BLL", "CRMTree.Library\CRMTree.BLL\CRMTree.BLL.csproj", "{BBB6CEC6-B890-451B-AAE7-E4AFEF065CA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRMTREE.WEB", "CRMTREE.WEB", "{9220A0EF-48D5-4874-B97D-701B3C4D8D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMTree_Web", "CRMTREE.WEB\CRMTree_Web\CRMTree_Web.csproj", "{E4EAF9BD-8DAA-4598-BDEE-E2EB6722D604}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "CRMTREE.WEB\WebSite", "{FE7E78BB-50F7-429D-9A19-C0E43AAFEE63}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{34675d0d-153b-4ddd-b99b-7ce9ac9a5e3d}|CRMTree.Model.dll;{bbb6cec6-b890-451b-aae7-e4afef065ca9}|CRMTree.BLL.dll;{1267946A-A197-4000-B612-9A10B7EB1DF2}|CRMTree.DAL.dll;{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}|ShInfoTech.Common.dll;{54C80F87-1F09-4A9D-AB0F-7587723A8BAB}|Shinfotech.Tools.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51323"
+		Debug.AspNetCompiler.PhysicalPath = "CRMTREE.WEB\WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51323\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51323"
+		Release.AspNetCompiler.PhysicalPath = "CRMTREE.WEB\WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51323\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51323"
+		SlnRelativePath = "CRMTREE.WEB\WebSite\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRMTREE.DataMapping", "CRMTREE.DataMapping", "{A40281E4-1CCA-435D-8AD6-C05084276AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomaticallyRun", "CRMTREE.DataMapping\AutomaticallyRun\AutomaticallyRun.csproj", "{E578581C-433E-4825-B097-C8590EAD1D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManullyModification", "CRMTREE.DataMapping\ManullyModification\ManullyModification.csproj", "{58DD9835-B14A-4950-B274-4BC6D9236A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationService", "CRMTREE.DataMapping\MigrationService\MigrationService.csproj", "{177D7D27-475A-4226-AEF4-74D2F1B49DE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54C80F87-1F09-4A9D-AB0F-7587723A8BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C80F87-1F09-4A9D-AB0F-7587723A8BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C80F87-1F09-4A9D-AB0F-7587723A8BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C80F87-1F09-4A9D-AB0F-7587723A8BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34675D0D-153B-4DDD-B99B-7CE9AC9A5E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34675D0D-153B-4DDD-B99B-7CE9AC9A5E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34675D0D-153B-4DDD-B99B-7CE9AC9A5E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34675D0D-153B-4DDD-B99B-7CE9AC9A5E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1267946A-A197-4000-B612-9A10B7EB1DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1267946A-A197-4000-B612-9A10B7EB1DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1267946A-A197-4000-B612-9A10B7EB1DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1267946A-A197-4000-B612-9A10B7EB1DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB6CEC6-B890-451B-AAE7-E4AFEF065CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB6CEC6-B890-451B-AAE7-E4AFEF065CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB6CEC6-B890-451B-AAE7-E4AFEF065CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB6CEC6-B890-451B-AAE7-E4AFEF065CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EAF9BD-8DAA-4598-BDEE-E2EB6722D604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EAF9BD-8DAA-4598-BDEE-E2EB6722D604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EAF9BD-8DAA-4598-BDEE-E2EB6722D604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EAF9BD-8DAA-4598-BDEE-E2EB6722D604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7E78BB-50F7-429D-9A19-C0E43AAFEE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7E78BB-50F7-429D-9A19-C0E43AAFEE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7E78BB-50F7-429D-9A19-C0E43AAFEE63}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7E78BB-50F7-429D-9A19-C0E43AAFEE63}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E578581C-433E-4825-B097-C8590EAD1D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E578581C-433E-4825-B097-C8590EAD1D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E578581C-433E-4825-B097-C8590EAD1D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E578581C-433E-4825-B097-C8590EAD1D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DD9835-B14A-4950-B274-4BC6D9236A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DD9835-B14A-4950-B274-4BC6D9236A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DD9835-B14A-4950-B274-4BC6D9236A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DD9835-B14A-4950-B274-4BC6D9236A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177D7D27-475A-4226-AEF4-74D2F1B49DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177D7D27-475A-4226-AEF4-74D2F1B49DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177D7D27-475A-4226-AEF4-74D2F1B49DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177D7D27-475A-4226-AEF4-74D2F1B49DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54C80F87-1F09-4A9D-AB0F-7587723A8BAB} = {DE3EF2EE-8DB1-48DC-A2D2-4D6069E6F549}
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A} = {DE3EF2EE-8DB1-48DC-A2D2-4D6069E6F549}
+		{34675D0D-153B-4DDD-B99B-7CE9AC9A5E3D} = {EA4A7B35-510E-4AFB-92AB-89D6F0068520}
+		{1267946A-A197-4000-B612-9A10B7EB1DF2} = {EA4A7B35-510E-4AFB-92AB-89D6F0068520}
+		{BBB6CEC6-B890-451B-AAE7-E4AFEF065CA9} = {EA4A7B35-510E-4AFB-92AB-89D6F0068520}
+		{E4EAF9BD-8DAA-4598-BDEE-E2EB6722D604} = {9220A0EF-48D5-4874-B97D-701B3C4D8D8E}
+		{FE7E78BB-50F7-429D-9A19-C0E43AAFEE63} = {9220A0EF-48D5-4874-B97D-701B3C4D8D8E}
+		{E578581C-433E-4825-B097-C8590EAD1D86} = {A40281E4-1CCA-435D-8AD6-C05084276AF4}
+		{58DD9835-B14A-4950-B274-4BC6D9236A37} = {A40281E4-1CCA-435D-8AD6-C05084276AF4}
+		{177D7D27-475A-4226-AEF4-74D2F1B49DE6} = {A40281E4-1CCA-435D-8AD6-C05084276AF4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+﻿<div class="report_left" style="width:{FT_Size_W}px; left:{FT_Pos_X}px; top:{FT_Pos_Y}px;position:absolute; padding-bottom:10px;">
+            <div class="report_title"><span style="float:right;">{MF_Btn_Links}</span>{MF_Title_EN}</div>
+            <div id="container{RP_Code}" style="max-width: {FT_Size_W}px; height:{FT_Size_H}px; margin: 0 auto">
+            </div>
+            <script type="text/javascript">
+        $(function () {
+            $('#container{RP_Code}').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                credits: {
+                    enabled: false
+                },
+                title: {
+                text: '',
+                    style: { color: '#000000', font: 'bold 12px arial'  }
+                },
+                xAxis: {
+                    categories: [ '1月','2月','3月','4月','5月', '6月','7月','8月','9月','10月','11月','12月']
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: ''
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                        '<td style="padding:0"><b>{point.y:.1f} </b></td></tr>',
+                    footerFormat: '</table>',
+                    shared: true,
+                    useHTML: true
+                },
+                plotOptions: {
+                    column: {
+                        pointPadding: 0.2,
+                        borderWidth: 0,
+                        color:'#FF0000'                  
+                    }
+                },
+                series: [{
+                    name: '降水量',
+                    data: [{DATALIST}],
+                    color:'#FD814E'
+                }
+                ]
+            });
+        });
+        </script>
+</div>

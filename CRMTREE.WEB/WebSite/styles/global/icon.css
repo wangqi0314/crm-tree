@@ -1,0 +1,194 @@
+﻿/*----------------------------------------------
+
+*Filename:					icon.css
+*Description:				Global Css
+*Version:					1.0.0(2011-05-26)
+*Website:					www.56dodo.com
+*Author						chenqinglian
+
+/*==STRUCTURE===================================
+
+*Page width:				980px
+*Number of columns:			2
+$__reset					css reset
+$__public box
+$__public class
+
+----------------------------------------------*/
+
+/*    __reset 
+----------------------------------------------*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;color:#007CC3;} 
+a:hover{text-decoration:none;color:#f90;}
+body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,"\5b8b\4f53",sans-serif;}
+
+/*    __public class
+----------------------------------------------*/
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+.fl{float:left;}.fr{float:right;}
+.tl{text-align:left;}.tc{text-align:center;}.tr{text-align:right;}.vm{vertical-align:middle;}
+.red{color:#f00;}.gray{color:#999;}
+.hidden{display:none!important;}.cb{clear:both;}.zoom{zoom:1;}
+.pr{position:relative;}.pa{position:absolute;}
+.fn{font-weight:normal;}.fb{font-weight:bold;}
+.m10{margin:10px;}.mt10{margin-top:10px;}.mr10{margin-right:10px;}.mb10{margin-bottom:10px;}.ml10{margin-left:10px;}
+.p10{padding:10px;}.pt10{padding-top:10px;}.pr10{padding-right:10px;}.pb10{padding-bottom:10px;}.pl10{padding-left:10px;}
+.hAuto{min-height:100px;height:auto !important;height:100px;overflow:visible;}
+.blank10 {clear:both; display:block; font-size:1px; height:10px; overflow:hidden;}
+
+/*    __ie6 minWidth
+----------------------------------------------*/
+.minBox_o{_margin-left:900px;_zoom:1;} 
+.minBox_i{_position:relative;_float:left;_margin-left:-900px;} 
+#minWidth{min-width:820px;_zoom:1;background:#ccc;} 
+
+
+/* button base */
+.btn,
+.btn span,
+.btn i{cursor:pointer;overflow:hidden;height:20px;line-height:20px;zoom:1;}
+.btn span,
+.btn i{display:block;float:left;}
+.btn {display:inline-block;padding-left:8px;background:url(/images/icon/btn.png) no-repeat 0 0;margin-left:10px;}
+.btn span{padding:0px 8px 0 0;color:#666;background:url(/images/icon/btn.png) no-repeat 100% -25px;}
+.btn i{width:0;text-indent:-999px;background:url(/images/icon/btn-icon.png) no-repeat 100% 100%;}
+.btn:hover{background-position:0 -50px;}
+.btn:hover span {background-position:100% -75px;color:#333;}
+.disableBtn,
+.disableBtn span,
+.disableBtn i{cursor:not-allowed;overflow:hidden;height:20px;line-height:20px;}
+.disableBtn span,
+.disableBtn i{display:block;float:left;}
+.disableBtn {display:inline-block;padding-left:8px;background:url(/images/icon/btn.png) no-repeat 0 -100px;margin-left:10px;}
+.disableBtn span{padding:0px 8px 0 0;color:#999;background:url(/images/icon/btn.png) no-repeat 100% -125px;}
+.disableBtn i{width:0;text-indent:-999px;background:url(/images/icon/btn-icon.png) no-repeat 100% 100%;}
+.disableBtn:hover{background-position:0 -100px;}
+.disableBtn:hover span {background-position:100% -125px;color:#999;}
+/* button style */
+.btnSaveAll i,.btnSearch i,.basicAdd i,.basicSave i,.autocarAdd i,.autocarSave i,.warningAdd i,.warningSave i,.nafcAdd i,.nafcSave i,.financialAdd i,.financialSave i,.safeAdd i,.safeSave i,.sysAdd i,.sysSave i,.printerBtn i,.w_arning i{width:16px;height:16px;margin:2px 6px 0 0;}
+.btnSearch i{background-position:0 -280px;}
+.btnSearch.disableBtn i{background-position:100% -280px;}
+.printerBtn i{background-position:0 -300px;}
+.sysAdd i{background-position:0 -400px;}
+.sysAdd.disableBtn i{background-position:100% -400px;}
+.sysSave i{background-position:0 -420px;}
+.sysSave.disableBtn i{background-position:100% -420px;}
+.autocarAdd i{background-position:0 -460px;}
+.autocarAdd.disableBtn i{background-position:100% -460px;}
+.autocarSave i{background-position:0 -480px;}
+.autocarSave.disableBtn i{background-position:100% -480px;}
+.warningAdd i{background-position:0 -520px;}
+.w_arning i{background-position:0 -500px;}
+.warningAdd.disableBtn i{background-position:100% -520px;}
+.warningSave i{background-position:0 -540px;}
+.warningSave.disableBtn i{background-position:100% -540px;}
+.nafcAdd i{background-position:0 -580px;}
+.nafcAdd.disableBtn i{background-position:100% -580px;}
+.nafcSave i{background-position:0 -600px;}
+.nafcSave.disableBtn i{background-position:100% -600px;}
+.financialAdd i{background-position:0 -640px;}
+.financialAdd.disableBtn i{background-position:100% -640px;}
+.financialSave i{background-position:0 -660px;}
+.financialSave.disableBtn i{background-position:100% -660px;}
+.safeAdd i{background-position:0 -700px;}
+.safeAdd.disableBtn i{background-position:100% -700px;}
+.safeSave i{background-position:100% -720px;}
+.safeSave.disableBtn i{background-position:100% -720px;}
+.basicAdd i{background-position:0 -760px;}
+.basicAdd.disableBtn i{background-position:100% -760px;}
+.basicSave i{background-position:0 -780px;}
+.basicSave.disableBtn i{background-position:100% -780px;}
+.btnSaveAll i{background-position:0 -260px;}
+.btnSaveAll.disable i{background-position:100% -260px;}
+
+
+
+
+
+
+/*    __enable_op  disable_op
+----------------------------------------------*/
+.enable_op,.enable_op i,.disable_op,.disable_op i{display:inline-block;*display:inline;*zoom:1;overflow:hidden;width:16px;height:16px;}
+.enable_op i,.disable_op i{background:url(/images/icon/btn-icon.png) no-repeat 100% 100%;}
+.enable_op,.enable_op i{cursor:pointer;}
+.disable_op,.disable_op i{cursor:not-allowed;}
+.enable_op,.disable_op{vertical-align:middle;margin-left:10px;}
+/*    __enable_op
+----------------------------------------------*/
+.enable_op .btnForward{background-position:0 0;}
+.enable_op .btnGoBack{background-position:0 -20px;}
+.enable_op .btnCancel{background-position:0 -40px;}
+.enable_op .btnRefresh{background-position:0 -60px;}
+.enable_op .btnModify{background-position:0 -80px;}
+.enable_op .btnDisable{background-position:0 -100px;}
+.enable_op .btnFee,
+.enable_op .btnClose,
+.enable_op .btnDelete{background-position:0 -120px;}
+.enable_op .btnChoose,
+.enable_op .btnEnable{background-position:0 -140px;}
+.enable_op .btnView{background-position:0 -160px;}
+.enable_op .btnDetails{background-position:0 -180px;}
+.enable_op .btnCharge{background-position:0 -200px;}
+.enable_op .btnSave{background-position:0 -220px;}
+.enable_op .btnIgnore{background-position:0 -240px;}
+.enable_op .btnPrinter{background-position:0 -300px;}
+.enable_op .btnRemark{background-position:0 -360px;}
+.enable_op .btnApproved{background-position:0 -860px;}
+.enable_op .btnNoApproved{background-position:0 -1060px;}
+.enable_op .btnAssign{background-position:0 -880px;}
+.enable_op .viewAssign{background-position:0 -1180px;}
+.enable_op .remarkDetail{background-position:0 -900px;}
+.enable_op .btnTaxisUp{background-position:0 -980px;}
+.enable_op .btnTaxisDown{background-position:0 -1000px;}
+.enable_op .btnTaxisTop{background-position:0 -1020px;}
+.enable_op .btnTaxisBottom{background-position:0 -1040px;}
+/*    __disable_op
+----------------------------------------------*/
+.disable_op .btnForward{background-position:100% 0;}
+.disable_op .btnGoBack{background-position:100% -20px;}
+.disable_op .btnCancel{background-position:100% -40px;}
+.disable_op .btnRefresh{background-position:100% -60px;}
+.disable_op .btnModify{background-position:100% -80px;}
+.disable_op .btnDisable{background-position:100% -100px;}
+.disable_op .btnFee,
+.disable_op .btnClose,
+.disable_op .btnDelete{background-position:100% -120px;}
+.disable_op .btnChoose,
+.disable_op .btnEnable{background-position:100% -140px;}
+.disable_op .btnView{background-position:100% -160px;}
+.disable_op .btnDetails{background-position:100% -180px;}
+.disable_op .btnCharge{background-position:100% -200px;}
+.disable_op .btnSave{background-position:100% -220px;}
+.disable_op .btnIgnore{background-position:100% -240px;}
+.disable_op .btnPrinter{background-position:100% -300px;}
+.disable_op .btnRemark{background-position:100% -360px;}
+.disable_op .btnApproved{background-position:100% -860px;}
+.disable_op .btnNoApproved{background-position:100% -1060px;} 
+.disable_op .btnAssign{background-position:100% -880px;}
+.disable_op .viewAssign{background-position:100% -1180px;}
+.disable_op .remarkDetail{background-position:100% -900px;}
+.disable_op .btnTaxisUp{background-position:100% -980px;}
+.disable_op .btnTaxisDown{background-position:100% -1000px;}
+.disable_op .btnTaxisTop{background-position:100% -1020px;}
+.disable_op .btnTaxisBottom{background-position:100% -1040px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+﻿<div class="report_left" style="width:{FT_Size_W}px; left:{FT_Pos_X}px; top:{FT_Pos_Y}px;position:absolute; padding-bottom:10px;">
+            <div class="report_title"><span style="float:right;">{MF_Btn_Links}</span>{MF_Title_EN}</div>
+            <div id="container{RP_Code}" style="max-width: {FT_Size_W}px; height:{FT_Size_H}px; margin: 0 auto">
+            </div>
+            <script type="text/javascript">
+               
+                     
+                    $('#container{RP_Code}').highcharts({
+                        chart: {
+                            plotBackgroundColor: null,
+                            plotBorderWidth: null,
+                            plotShadow: false
+                        },
+                        credits: {
+                            enabled: false
+                        },
+                        title: {text:'Brower market shares at a specific website ,2012'},
+                        tooltip: {
+                            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                        },
+                        plotOptions: {
+                            pie: {
+                                allowPointSelect: true,
+                                cursor: 'pointer',
+                                dataLabels: {
+                                    enabled: true,
+                                    color: '#000000',
+                                    connectorColor: '#000000',
+                                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                                }
+                            }
+                        },
+                        series: [{data}]
+                    });
+                
+    
+
+		</script>
+</div>

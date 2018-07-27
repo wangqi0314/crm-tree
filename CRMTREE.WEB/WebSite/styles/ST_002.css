@@ -1,0 +1,8 @@
+﻿/**
+    报表搜索页面
+*/
+body {}
+.ca-info{padding-bottom:2px;line-height:24px}
+.ca-info label{padding:0 5px}
+.ca-info label:first-child{padding-left:0px;margin-left:0px}
+.head1 .selected-inline li:hover{border: solid 2px #597718;padding: 2px 8px;}

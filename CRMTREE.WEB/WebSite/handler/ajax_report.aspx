@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ajax_report.aspx.cs" Inherits="handler_ajax_campaign" %>

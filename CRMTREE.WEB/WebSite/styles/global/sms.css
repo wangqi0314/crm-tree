@@ -1,0 +1,37 @@
+﻿/* Reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+body,button,input,select,textarea{font:normal 12px/1.5 'Tahoma','simsun';color:#333;}
+a{text-decoration:none;color:#333;} 
+a:hover{text-decoration:none;color:#c80000;}
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+.red{color:#c80000;}
+.txt350{font:bold 16px simsun;}
+.fb{font-weight:700;}
+.fr{float:right;}
+.sms{overflow:hidden;}
+.sms .sms_cont{padding:15px 0 0 0;}
+.sms .sms_cont li{padding: 0 0 8px 0;}
+.sms .sms_cont li.receiveUser{style="z-index:10;position:relative;"}
+.sms .sms_cont li.textCont{z-index:1;position:relative;height:150px}
+.sms .sms_cont li strong{color:#202020;float:left;font-weight:bold;text-align:right;width:100px;}
+.sms .receive{float:left;width:500px;}
+.sms .choose{padding-top:5px;position:relative;}
+.sms .choose b{color:#BC302D;}
+.sms .choose input{margin-right:10px;}
+.sms .textarea{border:1px solid #A9BED3;height:150px;width:494px;padding:3px;}
+.sms .addInput{border:1px solid #A9BED3;height:22px;line-height:22px;padding:0 3px;}
+.sms .addName{cursor:pointer;width:78px;height:29px;line-height:29px;text-align:center;background:url(/images/sms/addname.png) no-repeat 0 0;}
+.sms .timing{color:#202020;overflow:hidden;padding-top:4px;width:500px;}
+.sms .receiveName{border:1px solid #A8BDD3;width:498px;height:150px;overflow-y:auto;}
+.sms .receiveName ul{overflow:hidden;overflow-y:auto;padding:8px 0 0 8px;}
+.sms .receiveName ul li{border:1px solid #D2E6FB;float:left;height:22px;margin:0 5px 3px 0;padding:1px;white-space:nowrap;}
+.sms .receiveName ul li span{background:#F1F1F1;cursor:pointer;display:inline-block;float:left;font-family:simsun;height:18px;padding:4px 0px 0 9px;zoom: 1;}
+.sms .receiveName ul li a{background:url(/images/sms/close.png) no-repeat 50% 50%;display:inline-block;height:18px;margin-top:0;	margin-top:-3px;overflow:hidden;vertical-align:middle;width:25px;}
+.sms .tips_sms{padding-left:120px !important;background:url(/images/icon/tips_bg.png) no-repeat 100px 2px;}

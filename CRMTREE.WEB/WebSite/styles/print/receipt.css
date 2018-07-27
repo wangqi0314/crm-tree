@@ -1,0 +1,73 @@
+﻿/* Reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+/* ------------------------------------------
+       			 Layout 
+-------------------------------------------*/
+body,button,input,select,textarea{font:normal 10pt/1.5 'simsun';color:#333;}
+
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+.receipt{position:relative;width:800px;height:540px;margin:10px auto 0 auto;background:url(/images/receipt/receipt.png) no-repeat 0 0;}
+.receipt .title{display:block;padding-top:5px;text-align:center;font-size:14pt;font-weight:normal;font-family:宋体;padding-left:20px;}
+.receipt .dataInfo,
+.receipt .receiptCont,
+.receipt .receiptFoter{position:absolute;left:0;width:800px;}
+.receipt .dataInfo{top:83px;}
+.receipt .dataInfo .date{position:absolute;top:0;left:150px;}
+.receipt .dataInfo .number{position:absolute;top:0;left:567px;}
+.receipt .receiptCont{top:110px;padding-left:100px;width:610px;line-height:24px;}
+.receipt .receiptCont li{}
+.receipt .receiptCont table{width:100%;}
+.receipt .receiptFoter{top:445px;}
+.receipt .receiptFoter .kp{position:absolute;left:124px;}
+.receipt .receiptFoter .sk{position:absolute;left:350px;}
+.receipt .receiptFoter .gz{position:absolute;left:605px;}
+
+
+/*
+.receipt .payCont{position:relative;height:50px;}
+.receipt .payCont dt{position:absolute;left:0;}
+.receipt .payCont dd{position:absolute;right:0;width:600px;}
+*/
+
+
+.button {
+    padding-top: 20px;
+    text-align: center;
+}
+.button input, .button a {
+    background: url("/images/icon/btn.png") no-repeat scroll -100px -400px transparent;
+    border: 0 none;
+    color: #333333;
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    width: 95px;
+}
+.button a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.w10{width:10px;}.w20{width:20px;}.w25{width:25px;}.w30{width:30px;}.w40{width:40px;}.w50{width:50px;}.w60{width:60px;}.w65{width:65px;}.w70{width:70px;}.w80{width:80px;}.w90{width:90px;}.w100{width:100px;}.w110{width:110px;}.w120{width:120px;}.w130{width:130px;}.w140{width:140px;}.w150{width:150px;}.w160{width:160px;}.w170{width:170px;}.w180{width:180px;}.w190{width:190px;}.w200{width:200px;}.w220{width:220px;}.w240{width:240px;}.w260{width:260px;}.w350{width:350px;}.wAuto{width:100%;}.wAuto95{width:95%;}
+
+.table{width:100%;}
+.table th,
+.table td{line-height:1.586;padding:0 5px;border:1px solid #000;/*white-space:nowrap;word-break: keep-all;*/text-align:center;}
+.table th{font-size:10pt;}
+
+
+.page{position:absolute;top:50px;left:100px;}

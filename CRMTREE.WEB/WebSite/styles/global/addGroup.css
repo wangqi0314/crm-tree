@@ -1,0 +1,38 @@
+﻿/* Reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+
+
+/* Layout */
+body,button,input,select,textarea{font:normal 12px/1.5 'Tahoma','simsun';color:#333;}
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+
+
+/* addGroup */
+.addGroup{padding:10px;}
+.addGroup dl{padding:5px 0;/* border-bottom:1px dashed #d9d9d9;  */line-height:20px;}
+.addGroup dt{display:block;background:url(/images/icon/dash.png) repeat-x 0 50%;}
+.addGroup dt strong{color:#333;background-color:#f6f9ff;font-weight:700;padding-right:20px;}
+.addGroup dd{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

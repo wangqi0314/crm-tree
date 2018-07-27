@@ -1,0 +1,124 @@
+﻿/*    __reset
+----------------------------------------------
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+*/
+/*    __layout
+----------------------------------------------*/
+body,button,input,select,textarea{font:normal 12px/1.5 'Tahoma','simsun';color:#333;}
+a{text-decoration:none;color:#333;} 
+a:hover{text-decoration:none;color:#c80000;}
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+
+/*    __menu
+----------------------------------------------*/
+.menu{width:182px; /* padding-top:32px;background:url(/images/icon/sidemenu_bg.gif) no-repeat 0 0; */}  
+.menu dt,
+.menu li,
+.menu a{display:block;text-align:center;}
+.menu dt{overflow:hidden;cursor:pointer;height:30px;zoom:1;background:url(/images/icon/menu.png) no-repeat 0 -10px;}
+.menu li{height:26px;line-height:26px;background:url(/images/icon/menu.png) no-repeat 0 -50px;}
+.menu li a{height:26px;line-height:26px;}
+.menu li a:hover{color:#060;font-weight:700;background:url(/images/icon/menu.png) no-repeat 0 -90px;}
+.menu li.current a{color:#ff8c42;font-weight:700;background:url(/images/icon/menu.png) no-repeat 0 -90px;}
+.menuLine{clear:both;display:block;overflow:hidden;font-size:1px;height:5px;background:url(/images/icon/menu.png) no-repeat 0 0;}
+.menu_Icon,
+.menu_Txt,
+.menu_Url,
+.menu_Tools{display:inline;float:left;height:16px;margin-top:8px;}
+.menu_Icon{width:16px;margin-left:45px;background:url(/images/icon/btn-icon.png) no-repeat 100% 100%;}
+.menu_Txt{margin-left:5px;margin-top:8px;line-height:normal;}
+.menu_Url{margin-left:66px;margin-top:6px;line-height:normal;}
+.menu_Tools{float:right;margin-right:10px;}
+.menu_Tools i{cursor:pointer;display:inline;float:left;width:16px;height:16px;margin-left:2px;margin-right:-1px;}
+.menu dd .menu_Tools{margin-top:6px;}
+.menu_box{padding-left:20px; padding-top:10px}
+.menu_hd{padding:10px 0 10px 0;}
+/*
+a.no_access:hover{background:none !important;color:#999 !important;font-weight:normal !important;}
+*/
+.no_access{color:#999;cursor:not-allowed;}
+.no_access dt{background:#f0f3f5;}
+.access_small a{color:#999;}
+.access_small a:hover{color:#999;}
+.user_access{color:#999;cursor:not-allowed;}
+.user_access dt{cursor:not-allowed;}
+a.user_access:hover{background:none !important;color:#999 !important;font-weight:normal !important;}
+
+.no_access .company{/* background-position:100% -1100px !important; */}
+
+
+/*    __menu_Icon
+----------------------------------------------*/
+.menu_Icon.sys{background-position:0 -380px;}
+.menu_Icon.autocar{background-position:0 -440px;}
+.menu_Icon.warning{background-position:0 -500px;}
+.menu_Icon.nafc{background-position:0 -560px;}
+.menu_Icon.financial{background-position:0 -620px;}
+.menu_Icon.safe{background-position:0 -680px;}
+.menu_Icon.basic{background-position:0 -740px;}
+.menu_Icon.service{background-position:0 -800px;}
+.menu_Icon.training{background-position:0 -1300px;}
+.menu_Icon.message{background-position:0 -1320px;}
+.menu_Icon.company{background-position:0 -1100px;}
+.menu_Icon.access{background-position:0 -1080px;}
+.menu_Icon.admin{background-position:0 -1120px;}
+.menu_Icon.green{background-position:0 -1340px;}
+.menu_Icon.organization{background-position:0 -1140px;}
+.menu_Icon.user{background-position:0 -1360px;}
+.menu_Icon.mass{background-position:0 -1160px;}
+.menu_Icon.car_profit{background-position:0 -1220px;}
+.menu_Icon.summarizing{background-position:0 -1240px;}
+
+
+.user_access span.sys{background-position:100% -380px;}
+.user_access span.autocar{background-position:100% -440px;}
+.user_access span.warning{background-position:100% -500px;}
+.user_access span.nafc{background-position:100% -560px;}
+.user_access span.financial{background-position:100% -620px;}
+.user_access span.safe{background-position:100% -680px;}
+.user_access span.basic{background-position:100% -740px;}
+.user_access span.service{background-position:100% -800px;}
+.user_access span.training{background-position:100% -1300px;}
+.user_access span.message{background-position:100% -1320px;}
+.user_access span.company{background-position:100% -1100px;}
+.user_access span.access{background-position:100% -1080px;}
+.user_access span.admin{background-position:100% -1120px;}
+.user_access span.green{background-position:100% -1340px;}
+.user_access span.organization{background-position:100% -1140px;}
+.user_access span.user{background-position:100% -1360px;}
+.user_access span.mass{background-position:100% -1160px;}
+.user_access span.car_profit{background-position:100% -1220px;}
+.user_access span.summarizing{background-position:100% -1240px;}
+
+
+
+/*    __menu_Tools
+----------------------------------------------*/
+.menu_Tools i.menuAdd{background:url(zTreeStandard.png) no-repeat -112px 0;}
+.menu_Tools i.menuEdit{background:url(zTreeStandard.png) no-repeat -80px -48px;}
+.menu_Tools i.menuEnble{background:url(/images/icon/btn-icon.png) no-repeat 0 -140px;}
+.menu_Tools i.menuDel{background:url(/images/icon/btn-icon.png) no-repeat 0 -100px;}
+
+
+/*    __btn
+----------------------------------------------*/
+.btn,
+.btn span,
+.btn i{cursor:pointer;overflow:hidden;height:20px;line-height:20px;zoom:1;}
+.btn span,
+.btn i{display:block;float:left;}
+.btn {display:inline-block;padding-left:8px;background:url(/images/icon/btn.png) no-repeat 0 0;margin-left:10px;}
+.btn span{padding:0px 8px 0 0;color:#666;background:url(/images/icon/btn.png) no-repeat 100% -25px;}
+.btn i{width:0;text-indent:-999px;background:url(/images/icon/btn-icon.png) no-repeat 100% 100%;}
+.btn:hover{background-position:0 -50px;}
+.btn:hover span {background-position:100% -75px;color:#333;}
+
+
+ .moveGridBg{border:dashed 1px #ffc800;background:#fdf7d5;}

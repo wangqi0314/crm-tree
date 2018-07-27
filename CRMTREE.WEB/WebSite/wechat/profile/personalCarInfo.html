@@ -1,0 +1,209 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>我的车辆信息</title>
+    <link href="/wechatcss/pintuer.css" rel="stylesheet" />
+    <link href="/wechatcss/WechatBase.css" rel="stylesheet" />
+    <script src="/wechatjs/jquery-1.10.2.min.js"></script>
+    <script src="/wechatjs/pintuer.js"></script>
+    <script src="/wechatjs/comm/wechatBase.js"></script>
+    <script src="/wechatjs/comm/wProfile.js"></script>
+    <!--<script type="text/javascript" src="/wechatjs/plupload-2.1.2/js/plupload.full.min.js"></script>
+    <script src="/wechatjs/plupload-2.1.2/js/jquery.ui.plupload/jquery.ui.plupload.js"></script>
+    <script src="/wechatjs/plupload-2.1.2/js/jquery.plupload.queue/jquery.plupload.queue.js"></script>-->
+    <script type="text/javascript">
+        $(document).ready(function () { init.prosonalCarfile(); });
+    </script>
+    <style>
+    </style>
+</head>
+<body class="layout">
+    <div id="page1">
+        <div class="nav-head" style="height:40px;">
+            <div class="bg-main radius-none height-large fixed-top text-center fixed_100">
+                <div class="text-sub text-big">
+                    <a href="javascript:history.go(-1);" class="button bg-sub margin-little float-left">返回</a>
+                    <span style="margin-left:-60px">汽车信息</span>
+                </div>
+            </div>
+            <div class="height-large fixed_100">**</div>
+        </div>
+        <div class="panel radius-none">
+            <div class="panel-body form-x padding">
+                <div class="text-center text-red ts"></div>
+                <input type="hidden" id="AU_Code" value="" />
+                <input type="hidden" id="CI_Code" value="" />
+                <!--汽车类型-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:86px;text-align:right"><label><span class="text-dot">* </span>车型:</label></span>
+                        <input type="text" class="input" id="CI_CS_Code" name="_p" placeholder="车型" />
+                        <input type="hidden" id="hid_CI_Style" />
+                    </div>
+                </div>
+                <!--车牌-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:86px;text-align:right"><label><span class="text-dot">* </span>车牌:</label></span>
+                        <input type="text" class="input" id="CI_Licence" name="_p" placeholder="车牌" />
+                    </div>
+                </div>
+                <!--车架号-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:86px;text-align:right"><label>车架号:</label></span>
+                        <input type="text" class="input" id="CI_Frame" name="_p" placeholder="车架号" />
+                    </div>
+                </div>
+                <!--车架号-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:86px;text-align:right"><label>上牌日期:</label></span>
+                        <input type="date" class="input" id="CI_Licence_dt" name="_p" placeholder="上牌日期" />
+                    </div>
+                </div>
+                <!--驾照-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:86px;text-align:right"><label>驾照:</label></span>
+                        <input type="text" class="input" id="CI_Driving" name="_p" placeholder="驾照" />
+                    </div>
+                </div>
+                <!--驾照类型-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:86px;text-align:right"><label>驾照类型:</label></span>
+                        <select class="input" id="CI_Driving_Type">
+                            <option value=""></option>
+                            <option value="A牌照">A牌照</option>
+                            <option value="B牌照">B牌照</option>
+                            <option value="C1牌照">C1牌照</option>
+                            <option value="C2牌照">C2牌照</option>
+                        </select>
+                    </div>
+                </div>
+                <!--驾照日期-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:80px;text-align:right"><label>驾照日期:</label></span>
+                        <input type="date" class="input" id="CI_Driving_dt" name="_p" placeholder="驾照日期" />
+                    </div>
+                </div>
+                <!--上次投保期-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon" style="width:80px;text-align:right"><label>质保日期:</label></span>
+                        <input type="date" class="input" id="CI_Warr_St_dt" name="_p" placeholder="上次投保期" />
+                    </div>
+                </div>
+                <div class="text-center text-red ts"></div>
+                <a href="javascript:void(0);" id="_save" class="button button-block bg-sub margin-little text-center">保存</a>
+            </div>
+        </div>
+    </div>
+    <div id="page2" style="width:100%;display:none">
+        <div class="nav-head" style="height:40px;">
+            <div class="bg-main radius-none height-large fixed-top text-center fixed_100">
+                <div class="text-sub text-big">
+                    <a href="javascript:history.go(-1);" class="button bg-sub margin-little float-left BACK_01">返回</a>
+                    <span style="margin-left:-60px">个人信息</span>
+                </div>
+            </div>
+            <div class="height-large fixed_100">**</div>
+        </div>
+        <div class="panel margin-small-top radius-none">
+            <div class="panel-head">汽车列表</div>
+            <div class="panel-body padding">
+                <!--汽车类型-->
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">品牌:</span>
+                        <select class="input" id="CI_Make"></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">车款:</span>
+                        <select class="input" id="CI_Model"></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="addon">型号:</span>
+                        <select class="input" id="CI_Style"></select>
+                    </div>
+                </div>
+                <div class="text-center text-red ts_f"></div>
+                <a href="javascript:void(0);" id="CarConfirm" class="button button-block bg-sub margin-little text-center">确认</a>
+            </div>
+        </div>
+    </div>
+    <!--上传图片 HTML -->
+    <!--<div>
+        <div id="container">
+            <a id="pickfiles" href="javascript:;">[Select files]</a>
+            <a id="uploadfiles" href="javascript:;">[Upload files]</a>
+        </div>
+        <br />
+        <pre id="console"></pre>
+    </div>-->
+    <!--上传图片JS -->
+    <!--<script type="text/javascript">
+        var uploader = new plupload.Uploader(
+            {
+                runtimes: 'html5,flash,silverlight,html4',
+                browse_button: 'pickfiles',
+                container: document.getElementById('container'),
+                url: '/wechat/profile/1_profileMainService.aspx',
+                flash_swf_url: '/wechatjs/plupload-2.1.2/js/Moxie.swf',
+                silverlight_xap_url: '/wechatjs/plupload-2.1.2/js/Moxie.xap',
+
+                filters: {
+                    max_file_size: '10mb',
+                    mime_types: [
+                        { title: "Image files", extensions: "jpg,gif,png" },
+                        { title: "Zip files", extensions: "zip" }
+                    ]
+                },
+
+                init: {
+                    PostInit: function () {
+                        document.getElementById('filelist').innerHTML = '';
+
+                        document.getElementById('uploadfiles').onclick = function () {
+                            uploader.start();
+                            return false;
+                        };
+                    },
+
+                    FilesAdded: function (up, files) {
+                        plupload.each(files, function (file) {
+                            document.getElementById('filelist').innerHTML += '<div id="' + file.id + '">' + file.name + ' (' + plupload.formatSize(file.size) + ') <b></b></div>';
+                        });
+                        uploader.start();
+                    },
+
+                    UploadProgress: function (up, file) {
+                        document.getElementById(file.id).getElementsByTagName('b')[0].innerHTML = '<span>' + file.percent + "%</span>";
+                    },
+
+                    FileUploaded: function (up, file, res) {
+                        var i = 0;
+
+                    },
+
+                    Error: function (up, err) {
+                        document.getElementById('console').innerHTML += "\nError #" + err.code + ": " + err.message;
+                    }
+                }
+            });
+
+        uploader.init();
+
+    </script>-->
+</body>
+</html>

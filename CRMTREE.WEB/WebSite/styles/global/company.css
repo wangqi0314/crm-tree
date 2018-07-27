@@ -1,0 +1,86 @@
+﻿/*----------------------------------------------
+
+*Filename:					company.css
+*Description:				Global Css
+*Version:					1.0.0(2011-05-26)
+*Website:					www.56dodo.com
+*Author						chenqinglian
+
+/*==STRUCTURE===================================
+
+*Page width:				980px
+*Number of columns:			2
+$__reset					css reset
+$__public box
+$__public class
+
+----------------------------------------------*/
+
+/*    __reset 
+----------------------------------------------*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;color:#007CC3;} 
+a:hover{text-decoration:none;color:#f90;}
+body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,"\5b8b\4f53",sans-serif;}
+
+/*    __public class
+----------------------------------------------*/
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+.fl{float:left;}.fr{float:right;}
+.tl{text-align:left;}.tc{text-align:center;}.tr{text-align:right;}.vm{vertical-align:middle;}
+.red{color:#f00;}.gray{color:#999;}
+.hidden{display:none!important;}.cb{clear:both;}.zoom{zoom:1;}
+.pr{position:relative;}.pa{position:absolute;}
+.fn{font-weight:normal;}.fb{font-weight:bold;}
+.m10{margin:10px;}.mt10{margin-top:10px;}.mr10{margin-right:10px;}.mb10{margin-bottom:10px;}.ml10{margin-left:10px;}
+.p10{padding:10px;}.pt10{padding-top:10px;}.pr10{padding-right:10px;}.pb10{padding-bottom:10px;}.pl10{padding-left:10px;}
+.hAuto{min-height:100px;height:auto !important;height:100px;overflow:visible;}
+.blank10 {clear:both; display:block; font-size:1px; height:10px; overflow:hidden;}
+
+/*    __ie6 minWidth
+----------------------------------------------*/
+.minBox_o{_margin-left:900px;_zoom:1;} 
+.minBox_i{_position:relative;_float:left;_margin-left:-900px;} 
+#minWidth{min-width:820px;_zoom:1;background:#ccc;} 
+
+
+/*    __public box
+----------------------------------------------*/
+.box{margin:10px 10px 10px 10px;padding-left:10px;background:url(/images/icon/boxbg-left.gif) no-repeat 0 0;min-width:750px;}  
+.box .box-bg{padding-right:10px;background:url(/images/icon/boxbg-right.gif) no-repeat 100% 0;}
+.crumb,
+.title {/* position:relative; overflow:hidden; */zoom:1;height:20px;line-height:20px;padding-top:10px;font-family:'simsun';}
+.title a{vertical-align:middle;}
+
+/*    __company_cont
+----------------------------------------------*/
+body{background:url(/images/global/company_bg.jpg) no-repeat 10px 100%;}
+.company_cont{height:500px;}
+.company_cont ul{}
+.company_cont li{display:inline;float:left;height:66px;margin-left:20px;}
+.company_cont li a{display:block;float:left;margin-top:7px;height:53px;padding-left:20px;font-size:14px;color:#01297a;background:url(/images/global/company.png) no-repeat 0 0;}
+.company_cont li a:hover{color:#c80000;}
+.company_cont li em{display:block;height:53px;padding-right:20px;background:url(/images/global/company.png) no-repeat 100% 0;float:left;white-space:nowrap;word-break:keep-all;}
+.company_cont li span{display:block;height:32px;line-height:32px;padding:10px 10px 0 45px;background:url(/images/global/company.png) no-repeat -360px -150px;float:left;white-space:nowrap;word-break:keep-all;}
+.company_cont li.selectd{}
+.company_cont li.selectd a{height:66px;margin:0;color:#fff;background:url(/images/global/company.png) no-repeat 0 -80px;float:left;}
+.company_cont li.selectd em{height:66px;background:url(/images/global/company.png) no-repeat 100% -80px;float:left;white-space:nowrap;word-break:keep-all;}
+.company_cont li.selectd span{font-weight:700;height:54px;line-height:50px;padding:8px 10px 0 60px;background:url(/images/global/company.png) no-repeat 0 -152px;float:left;white-space:nowrap;word-break:keep-all;}
+
+
+
+
+
+
+
+
+
+
+

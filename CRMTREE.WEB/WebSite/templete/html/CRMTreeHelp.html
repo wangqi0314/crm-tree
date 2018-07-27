@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="/scripts/jquery/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery/jquery.extend.js" type="text/javascript"></script>
+
+    <script src="/scripts/plupload-1.5.7/plupload.js" type="text/javascript"></script>
+    <script src="/scripts/plupload-1.5.7/plupload.flash.js" type="text/javascript"></script>
+    <script src="/scripts/plupload-1.5.7/jquery.plupload.queue/jquery.plupload.queue.js" type="text/javascript"></script>
+
+    <script src="/scripts/common/json2.js" type="text/javascript"></script>
+    <link href="/scripts/jquery-easyui/themes/metro-green/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="/scripts/jquery-easyui/themes/icon.css" rel="stylesheet" type="text/css" />
+    <link href="/scripts/jquery-easyui/themes/easyui.css" rel="stylesheet" type="text/css" />
+    <script src="/scripts/jquery-easyui/jquery.easyui.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery-easyui/jquery.easyui.extend.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        var _isEn = $.isEn();
+        if (!_isEn) {
+            document.write('<script src="/scripts/jquery-easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></sc' + 'ript>');
+            document.write('<script src="/scripts/plupload-1.5.7/i18n/zh_CN.js" type="text/javascript"></sc' + 'ript>');
+        }
+    </script>
+    <style type="text/css">
+        html, body {
+            width:100%;
+            height:100%;
+            margin:0;
+            padding:0;
+        }
+
+        .datagrid-header {
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--<h2>My Tree</h2>-->
+    <div class="easyui-panel" style="width:25%;height:95%; position:absolute;z-index:1;margin-left:2.5%; margin-top:2.5%;margin-bottom:5%">
+         <ul class="easyui-tree">
+                <li>
+                    <span>HelpDocument</span>
+                    <ul>
+                        <li data-options="state:'closed'">
+                            <span>Dashboard</span>
+                            <ul>
+                                <li>
+                                    <a href="#" onclick="addPanel('Dashboard')">Dashboard</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed'">
+                            <span>Customers</span>
+                            <ul>
+                                <li><a href="#" onclick="addPanel('ListOfCustomers')">ListOfCustomers</a></li>
+                                <li><a href="#" onclick="addPanel('OnShop')">OnShop</a></li>
+                                <li><a href="#" onclick="addPanel('Appointments')">Appointments</a></li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed'">
+                            <span>Campaigns</span>
+                            <ul>
+                                <li><a href="#" onclick="addPanel('ListOfCampaigns')">ListOfCampaigns</a></li>
+                                <li><a href="#" onclick="addPanel('CreateCampaigns')">CreateCampaigns</a></li>
+                                <li><a href="#" onclick="addPanel('CampaignStatus')">CampaignStatus</a></li>
+                                <li><a href="#" onclick="addPanel('CampaignHistory')">CampaignHistory</a></li>
+                                <li><a href="#" onclick="addPanel('CampaignResults')">CampaignResults</a></li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed'">
+                            <span>Events</span>
+                            <ul>
+                                <li><a href="#" onclick="addPanel('ListOfEvents')">ListOfEvents</a></li>
+                                <li><a href="#" onclick="addPanel('CreateEvent')">CreateEvent</a></li>
+                                <li><a href="#" onclick="addPanel('EventRSVP')">EventRSVP</a></li>
+                                <li><a href="#" onclick="addPanel('EventReports')">EventReports</a></li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed'">
+                            <span>Operations</span>
+                            <ul>
+                                <li><a href="#" onclick="addPanel('Sev.Dep.Setup')">Sev.Dep.Setup</a></li>
+                                <li><a href="#" onclick="addPanel('Employees')">Employees</a></li>
+                                <li><a href="#" onclick="addPanel('IncomingCommunications')">IncomingCommunications</a></li>
+                                <li><a href="#" onclick="addPanel('OutgoingCommunications')">OutgoingCommunications</a>></li>
+                                <li><a href="#" onclick="addPanel('CarsInTheShop')">CarsInTheShope</a></li>
+                                <li><a href="#" onclick="addPanel('ServiceAdvisors')">ServiceAdvisors</a>d</li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed'">
+                            <span>Rewards</span>
+                            <ul>
+                                <li><a href="#" onclick="addPanel('Status')">Status</a></li>
+                                <li><a href="#" onclick="addPanel('AddPoints')">AddPoints</a></li>
+                                <li><a href="#" onclick="addPanel('UsePoints')">UsePoints</a></li>
+                                <li><a href="#" onclick="addPanel('ListPrograms')">ListPrograms</a></li>
+                                <li><a href="#" onclick="addPanel('AddProgram')">AddProgram</a></li>
+                                <li><a href="#" onclick="addPanel('EditProgram')">EditProgram</a></li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed'">
+                            <span>Reports</span>
+                            <ul>
+                                <li><a href="#" onclick="addPanel('RunReports')">RunReports</a></li>
+                                <li><a href="#" onclick="addPanel('EditReports')">EditReports</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    <div style="float:left; width:27.5%; height:95%;border:0;margin-top:2.5%;margin-bottom:2.5%"></div>
+    <div id="tt" style="width:70%;height:95%;float:left;margin-top:2.5%;margin-bottom:2.5%" class="easyui-tabs" data-options="tools:'#tab-tools'"></div>
+     <div id="tab-tools">
+          <a href="javascript:void(0)" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-remove'" onclick="removePanel()"></a>
+     </div>
+            <script type="text/javascript">
+                var tittleList = "";
+                window.onload = function(){ 
+                            $('#tt').tabs('add', {
+                                title:'Dashboard',
+                                content: '<div style="padding:10">Content' + 1000 + '</div>',
+                                closable: true
+                            });
+                            tittleList = "Dashboard";
+                    }
+
+
+                $('#tt').tabs({
+                    onClose: function (title, index) {
+
+                        tittleList= tittleList.replace(title, "");
+
+                        alert(tittleList);
+
+                    }
+                });
+
+
+                
+                 
+                function addPanel(tittle) {
+                        
+                    
+                    if (tittleList != "" && tittleList.indexOf(tittle)>=0) {
+                         
+                        $('#tt').tabs('select',tittle);
+                        
+                        
+                    }
+                    else {
+                         
+                        $('#tt').tabs('add', {
+                            title: tittle,
+                            content: '<div style="padding:10"><img src="/images/HelpDocument/PieChart.png"/></div>',
+                            closable: true
+                        });
+                        tittleList = tittle + tittleList;
+                    }
+
+                
+                }
+                function removePanel() {
+                    var tab = $('#tt').tabs('getSelected');
+                    if (tab) {
+                        var index = $('#tt').tabs('getTabIndex', tab);
+                        $('#tt').tabs('close', index);
+                    }
+                }
+            </script>
+        </body>
+</html>
+   

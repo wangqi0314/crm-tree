@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="01_MainService.aspx.cs" Inherits="wechat_01_MainService" %>

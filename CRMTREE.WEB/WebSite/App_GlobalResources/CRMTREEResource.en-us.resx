@@ -1,0 +1,1488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Appointment" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="Appointment1" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="Appointment2" xml:space="preserve">
+    <value>Select Car:</value>
+  </data>
+  <data name="Appointment3" xml:space="preserve">
+    <value>Select Dealer:</value>
+  </data>
+  <data name="Appointment4" xml:space="preserve">
+    <value>Select Date Time:</value>
+  </data>
+  <data name="Appointment5" xml:space="preserve">
+    <value>Select Adviser:</value>
+  </data>
+  <data name="Appointment6" xml:space="preserve">
+    <value>Select Reason:</value>
+  </data>
+  <data name="Appointment7" xml:space="preserve">
+    <value>Select Transportation:</value>
+  </data>
+  <data name="Appointment_List" xml:space="preserve">
+    <value>List of Appointments</value>
+  </data>
+  <data name="ap_buttons_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ap_buttons_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ap_car_window_title" xml:space="preserve">
+    <value>Add Car Info</value>
+  </data>
+  <data name="ap_contact_window_title" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="ap_form_advisor" xml:space="preserve">
+    <value>Advisor:</value>
+  </data>
+  <data name="ap_form_car" xml:space="preserve">
+    <value>Car Info:</value>
+  </data>
+  <data name="ap_form_contact" xml:space="preserve">
+    <value>Contact Info:</value>
+  </data>
+  <data name="ap_form_customerName" xml:space="preserve">
+    <value>Customer Name/Phone/Lic.:</value>
+  </data>
+  <data name="ap_form_date" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="ap_form_reason" xml:space="preserve">
+    <value>Reason:</value>
+  </data>
+  <data name="ap_form_time" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="ap_form_transportation" xml:space="preserve">
+    <value>Transportation:</value>
+  </data>
+  <data name="ap_window_editTitle" xml:space="preserve">
+    <value>Edit Appointment</value>
+  </data>
+  <data name="ap_window_title" xml:space="preserve">
+    <value>Add Appointment</value>
+  </data>
+  <data name="bottomText" xml:space="preserve">
+    <value>Copyright©CRMTREE.,Ltd. 2014,All Right Reserved</value>
+  </data>
+  <data name="CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cd_buttons_addAppointment" xml:space="preserve">
+    <value>Add Appointment</value>
+  </data>
+  <data name="cd_window_title" xml:space="preserve">
+    <value>Customer Details</value>
+  </data>
+  <data name="cm_buttons_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="cm_buttons_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cm_cars_buttonos_accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="cm_cars_buttonos_ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="cm_cars_buttons_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="cm_cars_buttons_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="cm_cars_buttons_remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="cm_cars_datagrid_Cars" xml:space="preserve">
+    <value>Cars</value>
+  </data>
+  <data name="cm_cars_datagrid_Last_Service" xml:space="preserve">
+    <value>Last Service</value>
+  </data>
+  <data name="cm_cars_datagrid_Next_Service" xml:space="preserve">
+    <value>Next Service</value>
+  </data>
+  <data name="cm_cars_form_ColorExternal" xml:space="preserve">
+    <value>Color External</value>
+  </data>
+  <data name="cm_cars_form_ColorInternal" xml:space="preserve">
+    <value>Color Internal</value>
+  </data>
+  <data name="cm_cars_form_Licence" xml:space="preserve">
+    <value>Licence</value>
+  </data>
+  <data name="cm_cars_form_Make" xml:space="preserve">
+    <value>Make</value>
+  </data>
+  <data name="cm_cars_form_Mileage" xml:space="preserve">
+    <value>Mileage</value>
+  </data>
+  <data name="cm_cars_form_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="cm_cars_form_Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="cm_cars_form_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="cm_cars_form_Years" xml:space="preserve">
+    <value>Years</value>
+  </data>
+  <data name="cm_cars_title" xml:space="preserve">
+    <value>Car Information</value>
+  </data>
+  <data name="cm_msg001" xml:space="preserve">
+    <value>No customer code!</value>
+  </data>
+  <data name="cm_personal_birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="cm_personal_driverLicense" xml:space="preserve">
+    <value>Driver\'s License</value>
+  </data>
+  <data name="cm_personal_education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="cm_personal_gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="cm_personal_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="cm_personal_idNo" xml:space="preserve">
+    <value>ID No</value>
+  </data>
+  <data name="cm_personal_idType" xml:space="preserve">
+    <value>ID Type</value>
+  </data>
+  <data name="cm_personal_industry" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="cm_personal_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cm_personal_occupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="cm_summary_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="cm_summary_appointmentForCar" xml:space="preserve">
+    <value>For car</value>
+  </data>
+  <data name="cm_summary_inActive" xml:space="preserve">
+    <value>InActive</value>
+  </data>
+  <data name="cm_summary_lastVisit" xml:space="preserve">
+    <value>Last visit</value>
+  </data>
+  <data name="cm_summary_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cm_summary_nextAppointment" xml:space="preserve">
+    <value>Next appointment</value>
+  </data>
+  <data name="cm_summary_numberCars" xml:space="preserve">
+    <value>Number of cars</value>
+  </data>
+  <data name="cm_summary_totalNumberVisits" xml:space="preserve">
+    <value>Total number of visits</value>
+  </data>
+  <data name="cm_summary_visitForCar" xml:space="preserve">
+    <value>For car</value>
+  </data>
+  <data name="cm_tabs_appointment" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="cm_tabs_cars" xml:space="preserve">
+    <value>Cars</value>
+  </data>
+  <data name="cm_tabs_communications" xml:space="preserve">
+    <value>Communications</value>
+  </data>
+  <data name="cm_tabs_contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="cm_tabs_personal" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="cm_tabs_preferences" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="cm_tabs_summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="cm_tabs_visits" xml:space="preserve">
+    <value>Visits</value>
+  </data>
+  <data name="cm_window_title" xml:space="preserve">
+    <value>Customer Manage</value>
+  </data>
+  <data name="DashboardDealerRecommend" xml:space="preserve">
+    <value>Recommended Dealers</value>
+  </data>
+  <data name="DashboardEvent" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="DashboardEvent1" xml:space="preserve">
+    <value>Appointments coming up</value>
+  </data>
+  <data name="DashboardEvent2" xml:space="preserve">
+    <value>Current specials at my dealerships</value>
+  </data>
+  <data name="DashboardEvent3" xml:space="preserve">
+    <value>Pending Surveys and Feebacks</value>
+  </data>
+  <data name="DashboardEvent4" xml:space="preserve">
+    <value>Points expiring within 2 months</value>
+  </data>
+  <data name="DashboardEvent5" xml:space="preserve">
+    <value>Pending Surveys</value>
+  </data>
+  <data name="DashboardEvent6" xml:space="preserve">
+    <value>Pending Reviews</value>
+  </data>
+  <data name="DashboardMyCar" xml:space="preserve">
+    <value>My Car Info</value>
+  </data>
+  <data name="DashboardMyCar1" xml:space="preserve">
+    <value>Buy A Car</value>
+  </data>
+  <data name="DashboardMyCar10" xml:space="preserve">
+    <value>Recommended Services :</value>
+  </data>
+  <data name="DashboardMyCar2" xml:space="preserve">
+    <value>Add A Car</value>
+  </data>
+  <data name="DashboardMyCar3" xml:space="preserve">
+    <value>Years:</value>
+  </data>
+  <data name="DashboardMyCar4" xml:space="preserve">
+    <value>Make:</value>
+  </data>
+  <data name="DashboardMyCar5" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="DashboardMyCar6" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="DashboardMyCar7" xml:space="preserve">
+    <value>Service History</value>
+  </data>
+  <data name="DashboardMyCar8" xml:space="preserve">
+    <value>Sold</value>
+  </data>
+  <data name="DashboardMyCar9" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="DashboardMyDealers" xml:space="preserve">
+    <value>My Dealers</value>
+  </data>
+  <data name="DashboardMyDealers1" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="DashboardMyDealers2" xml:space="preserve">
+    <value>Survey</value>
+  </data>
+  <data name="DashboardMyReward" xml:space="preserve">
+    <value>My Rewards</value>
+  </data>
+  <data name="DashboardMyReward1" xml:space="preserve">
+    <value>Buick Reward Program</value>
+  </data>
+  <data name="DashboardMyReward2" xml:space="preserve">
+    <value>Chevy Reward Program</value>
+  </data>
+  <data name="DashboardPage" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Dealership" xml:space="preserve">
+    <value>Sev. Dep. Setup</value>
+  </data>
+  <data name="ed_buttons_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ed_contacts_type_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ed_contacts_type_eMail" xml:space="preserve">
+    <value>EMail</value>
+  </data>
+  <data name="ed_contacts_type_messaging" xml:space="preserve">
+    <value>Messaging</value>
+  </data>
+  <data name="ed_contacts_type_phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ed_personal_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="ed_personal_birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="ed_personal_buttons_remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="ed_personal_driverLicense" xml:space="preserve">
+    <value>Driver\'s License</value>
+  </data>
+  <data name="ed_personal_education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="ed_personal_gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="ed_personal_id" xml:space="preserve">
+    <value>Empl. ID</value>
+  </data>
+  <data name="ed_personal_idNo" xml:space="preserve">
+    <value>ID No</value>
+  </data>
+  <data name="ed_personal_idType" xml:space="preserve">
+    <value>ID Type</value>
+  </data>
+  <data name="ed_personal_industry" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="ed_personal_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ed_personal_occupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="ed_personal_picture" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="ed_personal_picture_title" xml:space="preserve">
+    <value>Photo Viewer</value>
+  </data>
+  <data name="ed_schedule_am" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="ed_schedule_end" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="ed_schedule_fri" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="ed_schedule_mon" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="ed_schedule_msg001" xml:space="preserve">
+    <value>No employee number</value>
+  </data>
+  <data name="ed_schedule_pm" xml:space="preserve">
+    <value>PM</value>
+  </data>
+  <data name="ed_schedule_sat" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="ed_schedule_start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ed_schedule_sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="ed_schedule_thu" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="ed_schedule_tue" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="ed_schedule_wed" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="ed_summary_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="ed_summary_id" xml:space="preserve">
+    <value>Empl. ID</value>
+  </data>
+  <data name="ed_summary_inActive" xml:space="preserve">
+    <value>InActive</value>
+  </data>
+  <data name="ed_summary_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ed_tabs_contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="ed_tabs_personal" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="ed_tabs_schedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="ed_tabs_summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="ed_window_title" xml:space="preserve">
+    <value>Employee Details</value>
+  </data>
+  <data name="em_buttons_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="em_buttons_resetAll" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="em_buttons_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="em_buttons_undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="em_contacts_accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="em_contacts_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="em_contacts_AL_Add1" xml:space="preserve">
+    <value>Add1</value>
+  </data>
+  <data name="em_contacts_AL_Add2" xml:space="preserve">
+    <value>Add2</value>
+  </data>
+  <data name="em_contacts_AL_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="em_contacts_AL_District" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="em_contacts_AL_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="em_contacts_AL_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="em_contacts_AL_Zip" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="em_contacts_down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="em_contacts_EL_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="em_contacts_EL_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="em_contacts_ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="em_contacts_ML_Handle" xml:space="preserve">
+    <value>Account ID</value>
+  </data>
+  <data name="em_contacts_ML_MC_Code" xml:space="preserve">
+    <value>Carrier</value>
+  </data>
+  <data name="em_contacts_PL_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="em_contacts_PL_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="em_contacts_remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="em_contacts_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="em_contacts_select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="em_contacts_up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="em_msg001" xml:space="preserve">
+    <value>No employee code!</value>
+  </data>
+  <data name="em_personal_buttons_remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="em_personal_picture" xml:space="preserve">
+    <value>Upload Picture</value>
+  </data>
+  <data name="em_schedule_msg001" xml:space="preserve">
+    <value>Start time must be before the end of time!</value>
+  </data>
+  <data name="em_window_title" xml:space="preserve">
+    <value>Employee Manage</value>
+  </data>
+  <data name="LoginAbout" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="LoginAssessment" xml:space="preserve">
+    <value>ASSESSMENT</value>
+  </data>
+  <data name="LoginBtLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LoginCon1" xml:space="preserve">
+    <value>CRM Tree uses campaigns surveys,and actual information from your store to help you bring costomers to you store,while keeping them satisfied.</value>
+  </data>
+  <data name="LoginCon2" xml:space="preserve">
+    <value>We identify technology, training, and processes to take your sales and service teams to the next level.</value>
+  </data>
+  <data name="LoginCon3" xml:space="preserve">
+    <value>Through a series of fully customizable campaigns, you can offer products and services to your customers, keeping them engaged and satisfied.</value>
+  </data>
+  <data name="LoginCon4" xml:space="preserve">
+    <value>CRM Tree provides you with Key Performance Indicators at any time for any period of time, helping you adjust strategies and resources as needed.</value>
+  </data>
+  <data name="LoginContact" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="LoginEfficiencies" xml:space="preserve">
+    <value>EFFICIENCIES</value>
+  </data>
+  <data name="LoginEngage" xml:space="preserve">
+    <value>ENGAGE</value>
+  </data>
+  <data name="LoginFoot1" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LoginFoot2" xml:space="preserve">
+    <value>Privacy &amp; Terms</value>
+  </data>
+  <data name="LoginFoot3" xml:space="preserve">
+    <value>Sign-out</value>
+  </data>
+  <data name="LoginFoot4" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="LoginFoot5" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="LoginGlobalco" xml:space="preserve">
+    <value>GLOBAL CO.</value>
+  </data>
+  <data name="LoginHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="LoginHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LoginLiuldala" xml:space="preserve">
+    <value>LIUL DALA</value>
+  </data>
+  <data name="Loginlower1" xml:space="preserve">
+    <value>SEASONED PROS</value>
+  </data>
+  <data name="Loginlower2" xml:space="preserve">
+    <value>OUR SERVICES</value>
+  </data>
+  <data name="Loginlower3" xml:space="preserve">
+    <value>TESTIMONIALS</value>
+  </data>
+  <data name="Loginlower4" xml:space="preserve">
+    <value>CRM training</value>
+  </data>
+  <data name="Loginlower5" xml:space="preserve">
+    <value>KPI measurement</value>
+  </data>
+  <data name="Loginlower6" xml:space="preserve">
+    <value>Data integration and Analysis</value>
+  </data>
+  <data name="Loginlower7" xml:space="preserve">
+    <value>OUR CONSULTANTS HAVE BEEN EVERYWHERE</value>
+  </data>
+  <data name="Loginlower8" xml:space="preserve">
+    <value>Our professional staff includes two MBAs, a certified sales process engineer, and a customer retention expert. We also have special expertise in data integration.</value>
+  </data>
+  <data name="Loginlower9" xml:space="preserve">
+    <value>“CRM Tree delivered everything they promised. Our customer satisfaction levels are at an all-time high!”</value>
+  </data>
+  <data name="LoginName" xml:space="preserve">
+    <value>Login Name</value>
+  </data>
+  <data name="LoginPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LoginPlanning" xml:space="preserve">
+    <value>PLANNING</value>
+  </data>
+  <data name="LoginPrivacy" xml:space="preserve">
+    <value>Privacy &amp; Terms</value>
+  </data>
+  <data name="LoginProducts" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="LoginProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="LoginReadMore" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginReadMore1" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginReadMore2" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginReadMore3" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="LoginServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="LoginsName" xml:space="preserve">
+    <value>Login Name can't be empty!</value>
+  </data>
+  <data name="LoginTitel" xml:space="preserve">
+    <value>DaeKu Login</value>
+  </data>
+  <data name="LoginTool" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="MyCarBacktoList" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="MyCarBasicInformation" xml:space="preserve">
+    <value>Car Information Editor</value>
+  </data>
+  <data name="MyCarCOLOREXTERNAL" xml:space="preserve">
+    <value>COLOR EXTERNAL</value>
+  </data>
+  <data name="MyCarCOLORINTERNAL" xml:space="preserve">
+    <value>COLOR INTERNAL</value>
+  </data>
+  <data name="MyCarCon1" xml:space="preserve">
+    <value>Please enter  title</value>
+  </data>
+  <data name="MyCarCon2" xml:space="preserve">
+    <value>Please upload file</value>
+  </data>
+  <data name="MyCarEdit" xml:space="preserve">
+    <value>Edit Car Info</value>
+  </data>
+  <data name="MyCarLic" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="MyCarList" xml:space="preserve">
+    <value>List of My Cars</value>
+  </data>
+  <data name="MyCarMAKE" xml:space="preserve">
+    <value>MAKE</value>
+  </data>
+  <data name="MyCarMILEAGE" xml:space="preserve">
+    <value>MILEAGE</value>
+  </data>
+  <data name="MyCarMODEL" xml:space="preserve">
+    <value>MODEL</value>
+  </data>
+  <data name="MyCarnavigation" xml:space="preserve">
+    <value>My Cars</value>
+  </data>
+  <data name="MyCarPICTURE" xml:space="preserve">
+    <value>PICTURE</value>
+  </data>
+  <data name="MyCarSAVE" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="MyCarSTYLE" xml:space="preserve">
+    <value>STYLE</value>
+  </data>
+  <data name="MyCarTYPE" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="MyCarVIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="MyCarYEARS" xml:space="preserve">
+    <value>YEARS</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="MyProfile1" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="MyProfile2" xml:space="preserve">
+    <value>Old password：</value>
+  </data>
+  <data name="MyProfile3" xml:space="preserve">
+    <value>New password：</value>
+  </data>
+  <data name="MyProfile4" xml:space="preserve">
+    <value>Confirm password：</value>
+  </data>
+  <data name="MyProfile5" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ScrollMess1" xml:space="preserve">
+    <value>PROTECT AND NOURISH YOUR CUSTOMERS</value>
+  </data>
+  <data name="ScrollMess2" xml:space="preserve">
+    <value>SATISFIED CUSTOMERS BRING INCREASED REVENUE!</value>
+  </data>
+  <data name="ScrollMess3" xml:space="preserve">
+    <value>ACHIEVE GROWTH THROUGH INNOVATION!</value>
+  </data>
+  <data name="ScrollMess4" xml:space="preserve">
+    <value>CUSTOMIZE YOUR NEEDS WITH INNOVATIVE IDEAS AND PRODUCTS!</value>
+  </data>
+  <data name="ScrollMess5" xml:space="preserve">
+    <value>REACH YOUR GOALS FASTER AT A LOWER COST</value>
+  </data>
+  <data name="ScrollMess6" xml:space="preserve">
+    <value>GROW YOUR BUSINESS FASTER AT LOWER COST.</value>
+  </data>
+  <data name="topLogo" xml:space="preserve">
+    <value>Innovations on Every Branch!</value>
+  </data>
+  <data name="topSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="topSignout" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="topWelcome" xml:space="preserve">
+    <value>, Welcome!</value>
+  </data>
+  <data name="cm_tabs_tool_assistance" xml:space="preserve">
+    <value>OnLineAssistance</value>
+  </data>
+  <data name="cm_tabs_tool_reportIssue" xml:space="preserve">
+    <value>ReportIssue</value>
+  </data>
+  <data name="cm_tabs_tool_searchFAQ" xml:space="preserve">
+    <value>SearchFAQ</value>
+  </data>
+  <data name="cm_tabs_tool_suggestImprovements" xml:space="preserve">
+    <value>SuggestImprovements</value>
+  </data>
+  <data name="cm_tabs_tool_techSupport" xml:space="preserve">
+    <value>TechnicalSupport</value>
+  </data>
+  <data name="am_customer_AU_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="am_customer_Car_Model" xml:space="preserve">
+    <value>Car</value>
+  </data>
+  <data name="am_customer_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ed_account_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ed_account_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ed_account_UserName" xml:space="preserve">
+    <value>User Account</value>
+  </data>
+  <data name="ed_tabs_account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="main_customer_AU_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="main_customer_AU_Username" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="main_customer_Car_Lic" xml:space="preserve">
+    <value>Car Licence</value>
+  </data>
+  <data name="main_customer_eMail" xml:space="preserve">
+    <value>EMail</value>
+  </data>
+  <data name="main_customer_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="em_personal_function" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="em_personal_marital" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="cm_tabs_account_conpwd" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="cm_tabs_account_newpwd" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="cm_personal_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="cm_personal_relation" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="ap_form_notification" xml:space="preserve">
+    <value>Send Reminders to owner:</value>
+  </data>
+  <data name="cmp_form_calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="cmp_form_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="cmp_form_share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="cmp_form_yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="camp_Approval_Process" xml:space="preserve">
+    <value>Approval Process</value>
+  </data>
+  <data name="camp_matrix" xml:space="preserve">
+    <value>Please click on the select Matrix</value>
+  </data>
+  <data name="cmp_days" xml:space="preserve">
+    <value>days,</value>
+  </data>
+  <data name="cmp_duration" xml:space="preserve">
+    <value>duration</value>
+  </data>
+  <data name="cmp_edit_parameter" xml:space="preserve">
+    <value>Edit Parameter</value>
+  </data>
+  <data name="cmp_event_start_date" xml:space="preserve">
+    <value>Event Start date</value>
+  </data>
+  <data name="cmp_max_attendees" xml:space="preserve">
+    <value>Max # of Attendees</value>
+  </data>
+  <data name="cmp_prior" xml:space="preserve">
+    <value>days prior to event For</value>
+  </data>
+  <data name="cmp_Start_Announcement" xml:space="preserve">
+    <value>Start Announcement</value>
+  </data>
+  <data name="cmp_Status" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value> is required</value>
+  </data>
+  <data name="cmp_PSM_Val_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="cmp_SMV_Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="cmp_SMV_PSM_Code" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="cmp_SMV_Val" xml:space="preserve">
+    <value>Value(%)</value>
+  </data>
+  <data name="dm_tabs_Sales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="dm_tabs_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="dm_tabs_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="dm_tab_Departments" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="dm_tab_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="dm_tab_Options_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="dm_tab_Options_package" xml:space="preserve">
+    <value>Offer Service Package</value>
+  </data>
+  <data name="dm_tab_Options_selection" xml:space="preserve">
+    <value>Allow SA Selection</value>
+  </data>
+  <data name="dm_tab_Options_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="dm_tab_Resources" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="dm_tab_Schedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="listofreports" xml:space="preserve">
+    <value>List of reports</value>
+  </data>
+  <data name="ap_mp_Free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="ap_mp_Item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="ap_mp_price" xml:space="preserve">
+    <value>Your Price</value>
+  </data>
+  <data name="ap_mp_totalprice" xml:space="preserve">
+    <value>Your Price:</value>
+  </data>
+  <data name="ap_mp_totalvalue" xml:space="preserve">
+    <value>Valued at:</value>
+  </data>
+  <data name="ap_mp_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="CampaignEditor" xml:space="preserve">
+    <value>Campaign Editor:</value>
+  </data>
+  <data name="btnCreate" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnRelease" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="btnUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="btnView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="cmp_budget_dealer_pays" xml:space="preserve">
+    <value>Dealer Pays</value>
+  </data>
+  <data name="cmp_budget_oem_pays" xml:space="preserve">
+    <value>OEM Pays</value>
+  </data>
+  <data name="cmp_budget_paid" xml:space="preserve">
+    <value>Paid by Dealer</value>
+  </data>
+  <data name="cmp_budget_Total" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="cmp_title_parameter" xml:space="preserve">
+    <value>Edit Parameter</value>
+  </data>
+  <data name="cmp_targeted_info" xml:space="preserve">
+    <value>Please select Customers Targeted!</value>
+  </data>
+  <data name="btnApprove" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="btnReject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="btnNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btnYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnSure" xml:space="preserve">
+    <value>Sure</value>
+  </data>
+  <data name="cmp_app_approve" xml:space="preserve">
+    <value>Add comments</value>
+  </data>
+  <data name="cmp_app_reject" xml:space="preserve">
+    <value>Please specify a reason</value>
+  </data>
+  <data name="cmp_app_approved_content" xml:space="preserve">
+    <value>Dear {0}!
+	{1} just approved the following campaign。 
+	&lt;a href="{3}/manage/campaign/Campaign.aspx?CG_Code={2}" target="_blank"&gt;Click here to see and approve the campaign&lt;/a&gt;</value>
+  </data>
+  <data name="cmp_app_approved_title" xml:space="preserve">
+    <value>Campaign was Approved</value>
+  </data>
+  <data name="cmp_app_rejected_content" xml:space="preserve">
+    <value>Dear {0}!
+		{1} just rejected the following campaign。  
+&lt;a href="{3}/manage/campaign/Campaign.aspx?CG_Code={2}" target="_blank"&gt;Click here to see the campaign&lt;/a&gt;</value>
+  </data>
+  <data name="cmp_app_rejected_title" xml:space="preserve">
+    <value>Campaign was Rejected</value>
+  </data>
+  <data name="cmp_app_request_content" xml:space="preserve">
+    <value>Dear {0}!
+	{1} is requesting your approval for the following campaign
+	&lt;a href="{3}/manage/campaign/Campaign.aspx?CG_Code={2}" target="_blank"&gt;Click here to see the campaign&lt;/a&gt;</value>
+  </data>
+  <data name="cmp_app_request_title" xml:space="preserve">
+    <value>Campaign Approval Request</value>
+  </data>
+  <data name="btnRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="btnUse" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="SchedAnnounce" xml:space="preserve">
+    <value>  [Announce]</value>
+  </data>
+  <data name="SchedEvent" xml:space="preserve">
+    <value>  [Event]</value>
+  </data>
+  <data name="SchedNow" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="btnRun" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Directory" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchDocumentsPrompt" xml:space="preserve">
+    <value>Search for documents</value>
+  </data>
+  <data name="btnCall" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="btnDone" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="btnSkip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="CustomerResponse" xml:space="preserve">
+    <value>Customer Response</value>
+  </data>
+  <data name="CustomerService" xml:space="preserve">
+    <value>Customer Service Operator</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="btnAddNotes" xml:space="preserve">
+    <value>Add Notes</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="IncomingCalls" xml:space="preserve">
+    <value>Incoming Calls</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="AreaCode" xml:space="preserve">
+    <value>Area Code</value>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="AllCars" xml:space="preserve">
+    <value>All Cars</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="DriverInfo" xml:space="preserve">
+    <value>Driver Infomation</value>
+  </data>
+  <data name="ExpDate" xml:space="preserve">
+    <value>Exp.Date</value>
+  </data>
+  <data name="Insurance" xml:space="preserve">
+    <value>Insurance Information</value>
+  </data>
+  <data name="Policy" xml:space="preserve">
+    <value>Policy</value>
+  </data>
+  <data name="RelationAccess" xml:space="preserve">
+    <value>Relation Access</value>
+  </data>
+  <data name="adress" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="complaints" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="uploadLogo" xml:space="preserve">
+    <value>Upload Logo</value>
+  </data>
+  <data name="name_cn" xml:space="preserve">
+    <value>Chinese Name</value>
+  </data>
+  <data name="name_en" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="uploadLogo_l" xml:space="preserve">
+    <value>Upload Large Logo</value>
+  </data>
+  <data name="uploadLogo_m" xml:space="preserve">
+    <value>Upload Middle Logo</value>
+  </data>
+  <data name="uploadLogo_s" xml:space="preserve">
+    <value>Upload Small Logo</value>
+  </data>
+  <data name="Calling" xml:space="preserve">
+    <value>Calling</value>
+  </data>
+  <data name="Incoming" xml:space="preserve">
+    <value>Incoming</value>
+  </data>
+  <data name="btnSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="ContactMethods" xml:space="preserve">
+    <value>Contact Methods</value>
+  </data>
+  <data name="Method" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="cm_cars_Contact_buttons_add" xml:space="preserve">
+    <value>Add Contacts/Drivers for this Car</value>
+  </data>
+  <data name="cmp_app_appr_Ready_title" xml:space="preserve">
+    <value>The Campaign Is Approve and Ready</value>
+  </data>
+  <data name="pName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CampaignApproval" xml:space="preserve">
+    <value>Campaign Approval</value>
+  </data>
+  <data name="CampaignCategory" xml:space="preserve">
+    <value>Campaign Category:</value>
+  </data>
+  <data name="CampaignType" xml:space="preserve">
+    <value>Campaign Type:</value>
+  </data>
+  <data name="IType" xml:space="preserve">
+    <value>IType:</value>
+  </data>
+  <data name="ed_personal_ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="CLT_GUANXI" xml:space="preserve">
+    <value>relation</value>
+  </data>
+  <data name="CLT_LIANXIFANGSHI" xml:space="preserve">
+    <value>contactInformation</value>
+  </data>
+  <data name="CLT_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CLT_XINXI" xml:space="preserve">
+    <value>information</value>
+  </data>
+  <data name="cm_tabs_Assc" xml:space="preserve">
+    <value>Associates</value>
+  </data>
+  <data name="em_personal_Acc" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="em_personal_Cars" xml:space="preserve">
+    <value>Cars</value>
+  </data>
+  <data name="em_personal_Rel" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="btnAUinfo" xml:space="preserve">
+    <value>User Info</value>
+  </data>
+  <data name="Help_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="VINUpload" xml:space="preserve">
+    <value>VINUpload</value>
+  </data>
+  <data name="Again_Upload" xml:space="preserve">
+    <value>Upload_Again</value>
+  </data>
+  <data name="VINDownload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="setcalls" xml:space="preserve">
+    <value>phone Settings</value>
+  </data>
+  <data name="calls" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="LoginReminder" xml:space="preserve">
+    <value>MyReminders</value>
+  </data>
+  <data name="btnMore" xml:space="preserve">
+    <value>Further Action Required</value>
+  </data>
+  <data name="vacation_date" xml:space="preserve">
+    <value>Vacation Dates : </value>
+  </data>
+  <data name="btnCallBk" xml:space="preserve">
+    <value>Call Back</value>
+  </data>
+  <data name="CLT_DoNotUse" xml:space="preserve">
+    <value>DoNotUse</value>
+  </data>
+  <data name="AvailableDealers" xml:space="preserve">
+    <value>Available Dealers:</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="Estimated" xml:space="preserve">
+    <value>Estimated</value>
+  </data>
+  <data name="EstimatedMileage" xml:space="preserve">
+    <value>Estimated Mileage:</value>
+  </data>
+  <data name="GeneralNotes" xml:space="preserve">
+    <value>General Notes:</value>
+  </data>
+  <data name="LastMileage" xml:space="preserve">
+    <value>Last Mileage:</value>
+  </data>
+  <data name="ap_name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Busy" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="schedule_btn_change" xml:space="preserve">
+    <value>Yes, Change the time</value>
+  </data>
+  <data name="schedule_btn_keep" xml:space="preserve">
+    <value>No, keep the time</value>
+  </data>
+  <data name="schedule_btn_view" xml:space="preserve">
+    <value>Show Availability Schedule</value>
+  </data>
+  <data name="schedule_tip_bottom" xml:space="preserve">
+    <value>Would you like to change your appointment tine to this date?</value>
+  </data>
+  <data name="schedule_tip_top" xml:space="preserve">
+    <value>The next available time for this advisor is :</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="LoginRemind" xml:space="preserve">
+    <value>Reminders</value>
+  </data>
+  <data name="ap_buttons_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="ap_buttons_Prev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="RunView_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RunView_info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="RunView_phone" xml:space="preserve">
+    <value>CellPhone</value>
+  </data>
+  <data name="RunView_send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="KPI" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="KPI_pdn_Annual" xml:space="preserve">
+    <value>Annual</value>
+  </data>
+  <data name="KPI_pdn_Daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="KPI_pdn_kpi" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="KPI_pdn_Monthly" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="KPI_pdn_name" xml:space="preserve">
+    <value>department</value>
+  </data>
+  <data name="KPI_pdn_Quarterly" xml:space="preserve">
+    <value>Quarterly</value>
+  </data>
+  <data name="KPI_pdn_Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="UserGroups1" xml:space="preserve">
+    <value>User_Group</value>
+  </data>
+  <data name="UserGroupisMiple" xml:space="preserve">
+    <value>Function</value>
+  </data>
+</root>

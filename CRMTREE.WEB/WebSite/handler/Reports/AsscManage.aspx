@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AsscManage.aspx.cs" Inherits="handler_Reports_AsscManage" %>

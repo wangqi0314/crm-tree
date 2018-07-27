@@ -1,0 +1,579 @@
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Blob 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Currency 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Date 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.DateUnit 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.AxisLineType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.TextFormatInfo 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFShape 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFShape in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFSimpleShape 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFSimpleShape in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFCombobox 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFCombobox in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFShapeTypes 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.ArgumentsEvaluator 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.DateParser 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.IfError 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.NetworkdaysFunction 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.WorkdayCalculator 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.WorkdayFunction 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.WeekdayFunc 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.CrtLayout12Mode 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.MarkerType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.FrtHeader 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.FrtHeaderOld 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.FrtRefHeader 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Ref8 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkHeader 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkBlob 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkBool 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkDouble 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkDWord 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkEnd 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkString 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkStyle 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkToken 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkTickMarkSkipFrt 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.DVConstraint 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Constants 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.AbstractShape 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.ComboboxShape 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.TextboxShape 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.CommentShape 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.HSSFFormulaParser 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.LineShape 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.ParseNode 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.PolygonShape 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.RecordOrderer 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.InternalSheet 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.SimpleFilledShape 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.PLSAggregate 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.SharedValueManager 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.AutoFilter.DOPERComparisonCode 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.AutoFilter.DOPERType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.AutoFilter.DOPERErrorValue 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.BOFRecordType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.CF.CellRangeUtil 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.PositionMode 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.SeriesToChartGroupRecord 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.EventFileSystem.POIFSWriterEventHandler 生成存根: 类型已密封。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.CloseIgnoringInputStream 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormat 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.GeneralCellFormatType 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.NumberCellFormatType 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.DateCellFormatType 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.ElapsedCellFormatType 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.TextCellFormatType 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.EDate 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Constant.ConstantValueParser 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Constant.ErrorConstant 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Cont.ContinuableRecordOutput 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Cont.UnknownLengthRecordOutput 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Crypto.Biff8EncryptionKey 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Crypto.RC4 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.CustomField 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.SerializationListener 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.RecordSizeListener 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.SpecialCachedValue 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.InterfaceEndRecord 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.PColor 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.SimpleHeaderInput 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.CommonObjectType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFChartType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFChart 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFErrorConstants 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Common.POIFSBigBlockSize 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.EventFileSystem.POIFSReaderEventHandler 生成存根: 类型已密封。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Forked.ForkedEvaluationCell 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Forked.ForkedEvaluationSheet 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Forked.ForkedEvaluationWorkbook 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Forked.ForkedEvaluator 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.BorderDiagonal 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisTickMark 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.TitleType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.DataSources 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontUnderline 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.CloseIgnoringInputStream 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.POIFSDocumentReader 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.POIFSDocumentWriter 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Properties.PropertyFactory 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Storage.DataInputBlock 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Util.HSSFCellUtil 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Util.HSSFRegionUtil 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.EvaluationCycleDetector 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.EvaluationCycleDetectorManager 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFAnchor 生成存根: method NPOI.DDF.EscherRecord NPOI.HSSF.UserModel.HSSFAnchor.GetEscherAnchor() unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFAnchor in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFChildAnchor 生成存根: method NPOI.DDF.EscherRecord NPOI.HSSF.UserModel.HSSFAnchor.GetEscherAnchor() unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFChildAnchor in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFClientAnchor 生成存根: method NPOI.DDF.EscherRecord NPOI.HSSF.UserModel.HSSFAnchor.GetEscherAnchor() unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFClientAnchor in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFTextbox 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFTextbox in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFComment 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFComment in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFEvaluationWorkbook 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFName 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFPicture 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFPicture in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFObjectData 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFObjectData in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFPolygon 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFPolygon in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFShapeGroup 生成存根: method System.Void NPOI.HSSF.UserModel.HSSFShape.AfterInsert(NPOI.HSSF.UserModel.HSSFPatriarch patriarch) unstubbable: 方法是抽象的，因此无法用作存根，方法签名类型对于 exported or assembly(NPOI.Fakes) or subtype(HSSFShapeGroup in assembly NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.OperationEvaluatorFactory 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.StaticFontMetrics 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.AnalysisToolPak 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.MRound 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.ParityFunction 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.RandBetween 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.YearFrac 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.CellEvaluationFrame 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.CollaboratingWorkbooksEnvironment 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.BlankEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.ConcatEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.ErrorEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.IntersectionEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.MissingArgEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.OperandResolver 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.PercentEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.RangeEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.UnaryMinusEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.UnaryPlusEval 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Formula 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaCellCacheEntrySet 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.CalendarFieldFunction 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.CountUtils 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.DateFunc 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.FinanceLib 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Indirect 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.LookupUtils 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.LookupValueComparerBase 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.CompareResult 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.BinarySearchIndexes 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.BooleanLookupComparer 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.MathX 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.StatsLib 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Function.FunctionDataBuilder 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Function.FunctionMetadata 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Function.FunctionMetadataReader 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.OperandClassTransformer 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.OperationEvaluatorFactory 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.ParseNode 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.AddPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.ConcatPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.DividePtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.EqualPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaShifter 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.FuncPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.FuncVarPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.GreaterEqualPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.GreaterThanPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.IntersectionPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.LessEqualPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.LessThanPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.MissingArgPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.MultiplyPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.NotEqualPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.ParenthesisPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.PercentPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.PowerPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.RangePtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.SubtractPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.UnaryMinusPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.UnaryPlusPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.UnionPtg 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.SheetNameFormatter 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.UserDefinedFunction 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.SpreadsheetVersion 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.BorderStyle 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.CellType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisCrossBetween 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisCrosses 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisOrientation 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisPosition 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.LayoutMode 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.LayoutTarget 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.LegendPosition 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.AnchorType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ComparisonOperator 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ConditionType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ERRORSTYLE 生成存根: 类型已密封。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ValidationType 生成存根: 类型已密封。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.OperatorType 生成存根: 类型已密封。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontUnderlineType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontSuperScript 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontColor 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontBoldWeight 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontCharset 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontFamily 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontScheme 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FormulaError 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.HorizontalAlignment 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.HyperlinkType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.LineStyle 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PageOrder 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PaperSize 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PictureType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PrintCellComments 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PrintOrientation 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.DisplayCellErrorType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ShapeTypes 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.MarginType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PanePosition 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.VerticalAlignment 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.SheetState 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.NameType 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.CellUtil 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.SSNFormat 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.ZipPlusFourFormat 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.PhoneFormat 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.NumberToTextConverter 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.Region 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.RegionUtil 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.SSCellRange`1 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.MutableBigInteger 生成存根: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.HexDump 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.LittleEndian 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.BufferUnderrunException 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.Operator 生成存根: 类型已密封。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.PngUtils 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.POILogFactory 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.StringUtil 生成存根: 类型没有系列可见的构造函数。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.ULongField 生成存根: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.ObjectKind 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.TextOrientation 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.HorizontalTextAlignment 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.VerticalTextAlignment 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FillPattern 生成存根: 类型是一个值类型。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 <PrivateImplementationDetails>{7B2062A4-7CBD-4569-B0D7-ABA4736E29FF} 生成存根: 类型不受支持，因为存在内部限制。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.DDF.EscherRecord+DeleteEscherRecordHeader 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.DDF.AbstractEscherOptRecord+EscherPropertyComparer 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Array+ArrayDimension 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Array+ArrayHeader 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Blob 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Currency 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Date 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.RecordAggregate+RecordSizingVisitor 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.RecordAggregate+SerializingRecordVisitor 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.RecordVisitor 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.Chart.ChartRecordAggregate+StartBlockStack 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.Chart.ChartFormatsAggregate+ChartFormatsAttachedLabelAggregate 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.AlRunsRecord+CTFormat 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.DateUnit 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.AxisLineType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.TextFormatInfo 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFShapeTypes 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.IHSSFShapeTypes 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.Entry 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.DirectoryEntry 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.FilteringDirectoryNode+FilteringIterator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.ArgumentsEvaluator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.FreeRefFunction 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.IfError 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.WorkdayFunction 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Function 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Function1Arg 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Function2Arg 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Function3Arg 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.CrtLayout12Mode 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.MarkerType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Common.SharedFeature 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.ILittleEndianInput 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.FrtHeader 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.FrtHeaderOld 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.FrtRefHeader 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Ref8 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkHeader 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkBlob 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkBool 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkDouble 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkDWord 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkEnd 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkString 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkStyle 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkToken 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.XmlTkTickMarkSkipFrt 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IDataValidationConstraint 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IDataValidation 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IDataValidationHelper 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.DDF.IEscherRecordFactory 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.DDF.EscherDggRecord+EscherDggRecordComparer 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.DDF.EscherDump+PropName 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.DDF.EscherSerializationListener 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Constants 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Extractor.HPSFPropertiesExtractor+PropertiesOnlyDocument 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.Section+PropertyListEntry 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HPSF.MutableSection+PropertyComparer 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.EventModel.IERFListener 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.EventUserModel.IHSSFListener 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.EventUserModel.EventWorkbookBuilder+StubHSSFWorkbook 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IWorkbook 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFWorkbook+SheetRecordCollector 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Extractor.EventBasedExcelExtractor+TextListener 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.AbstractShape 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.ComboboxShape 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.TextboxShape 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.CommentShape 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.LineShape 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.LinkTable+CRNBlock 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.LinkTable+ExternalBookBlock 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.ParseNode 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.PolygonShape 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.InternalSheet+RecordCloner 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.InternalSheet+RecordVisitor1 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Model.SimpleFilledShape 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.ColumnInfoRecordsAggregate+CIRComparator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.CellValueRecordInterface 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.PageSettingsBlock+CustomRecordVisitor1 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.PLSAggregate 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.SharedValueManager+SharedFormulaGroup 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.SharedValueManager+SharedFormulaGroupComparator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Aggregates.ValueRecordsAggregate+MyEnumerator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.AutoFilter.DOPERComparisonCode 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.AutoFilter.DOPERType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.AutoFilter.DOPERErrorValue 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.BiffHeaderInput 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.BOFRecordType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.IMargin 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.BoundSheetRecord+BOFComparator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.ChartFRTInfoRecord+CFRTID 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.PositionMode 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.SeriesToChartGroupRecord 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.EventFileSystem.POIFSWriterEventHandler 生成填充码: 类型是一个委托。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.EventFileSystem.POIFSWriterListener 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.CloseIgnoringInputStream 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Dev.POIFSViewable 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.BATManaged 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Storage.BlockWritable 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.POIFSDocument+BigBlockStore 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.POIFSDocument+SmallBlockStore 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Extractor.ExcelExtractor 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellDateFormatter+DatePartHandler 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatPart+CaseInsensitiveComparator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatPart+IPartHandler 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellElapsedFormatter+ElapsedPartHandler 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellElapsedFormatter+TimeSpec 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatCondition+EQ_CellFormatCondition 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatCondition+GE_CellFormatCondition 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatCondition+GT_CellFormatCondition 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatCondition+LE_CellFormatCondition 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatCondition+LT_CellFormatCondition 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellFormatCondition+NE_CellFormatCondition 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.GeneralCellFormatType 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.NumberCellFormatType 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.DateCellFormatType 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.ElapsedCellFormatType 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.TextCellFormatType 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellNumberFormatter+Fraction 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellNumberFormatter+NumPartHandler 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellNumberFormatter+SimpleNumberCellFormatter 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellNumberFormatter+Special 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellNumberFormatter+StringMod 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Format.CellTextFormatter+PartHandler 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.EDate 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.ILittleEndianOutput 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Cont.ContinuableRecordOutput+DelayableLittleEndianOutput1 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.IDelayableLittleEndianOutput 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Cont.UnknownLengthRecordOutput 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Crypto.RC4 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.CustomField 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.SerializationListener 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.RecordSizeListener 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.EscherAggregate+CustomEscherRecordFactory 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.SpecialCachedValue 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.MulRKRecord+RkRec 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.NameRecord+Option 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.PColor 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.PivotTable.PageItemRecord+FieldInfo 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.PivotTable.ViewFieldsRecord+Axis 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.RecordFactory+I_RecordCreator 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.RecordFactory+ReflectionConstructorRecordCreator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.RecordFactory+ReflectionMethodRecordCreator 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.RecordFactoryInputStream+StreamEncryptionInfo 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.SimpleHeaderInput 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.CommonObjectType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFChartType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.EventFileSystem.POIFSReaderEventHandler 生成填充码: 类型是一个委托。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.EventFileSystem.POIFSReaderListener 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IEvaluationCell 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Forked.ForkedEvaluationCell 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IEvaluationSheet 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Forked.ForkedEvaluationSheet 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IEvaluationWorkbook 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Forked.ForkedEvaluationWorkbook 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.BorderDiagonal 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisTickMark 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IChartDataSource`1 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.TitleType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IChartSerie 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.DataSources+AbstractCellRangeDataSource`1 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.DataSources+ArrayDataSource`1 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.DataSources+DoubleCellRangeDataSource 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.DataSources+StringCellRangeDataSource 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IChartData 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.ILineChartData`2 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.ILineChartSerie`2 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.CloseIgnoringInputStream 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.DocumentEntry 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.POIFSDocumentReader 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.FileSystem.POIFSDocumentWriter 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Properties.Child 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Properties.Parent 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Storage.BlockList 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Storage.ListManagedBlock 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.POIFS.Storage.PropertyBlock+AnonymousProperty 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Util.HSSFCellUtil+UnicodeMapping 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Util.HSSFRegionUtil+CellPropertySetter 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.EvaluationCycleDetector 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.EvaluationCycleDetectorManager 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IHeaderFooter 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IAutoFilter 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IBorderFormatting 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ICell 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ICellStyle 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IClientAnchor 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IComment 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IConditionalFormatting 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IConditionalFormattingRule 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ICreationHelper 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IDataFormat 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IFormulaRenderingWorkbook 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IFormulaParsingWorkbook 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFEvaluationWorkbook+Name 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IEvaluationName 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IFont 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IFontFormatting 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IFooter 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IFormulaEvaluator 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IHeader 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IHyperlink 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IName 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IPicture 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFPalette+CustomColor 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IColor 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.HSSFShapeContainer 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IDrawing 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IPatternFormatting 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IPictureData 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IPrintSetup 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IRichTextString 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IRow 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ISheet 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ISheetConditionalFormatting 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.OperationEvaluatorFactory 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.UserModel.StaticFontMetrics 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.MRound 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.RandBetween 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.YearFrac 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Atp.YearFracCalculator+SimpleDate 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.ICacheEntry 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.CellEvaluationFrame 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IEntryOperation 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.ValueEval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.TwoDEval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.AreaEval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.NumericValueEval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.StringValueEval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.Eval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.FunctionEval+FunctionID 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.OperationEval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Eval.RefEval 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IExternSheetReferenceToken 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaCellCacheEntrySet 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaParser+Identifier 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaParser+SheetIdentifier 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaParser+SimpleRangePart 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaUsedBlankCellSet+BlankCellRectangleGroup 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaUsedBlankCellSet+BlankCellSheetGroup 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.MultiOperandNumericFunction+DoubleList 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.AggregateFunction+ValueCollector 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Function0Arg 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Count+DefaultPredicate 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Count+SubtotalPredicate 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.I_MatchPredicate 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.I_MatchAreaPredicate 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Countblank+BlankPredicate 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Countif+BooleanMatcher 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Countif+CmpOp 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Countif+ErrorMatcher 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Countif+MatcherBase 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Countif+NumberMatcher 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Countif+StringMatcher 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.CountUtils 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Function4Arg 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.ValueVector 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.LookupUtils 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.LookupValueComparer 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.LookupValueComparerBase 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.BinarySearchIndexes 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.BooleanLookupComparer 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Offset+BaseRef 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Offset+EvalEx 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.XYNumericFunction+AreaValueArray 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.XYNumericFunction+DoubleArrayPair 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.XYNumericFunction+RefValueArray 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.XYNumericFunction+SingleCellValueArray 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.XYNumericFunction+ValueArray 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Functions.Accumulator 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Function.FunctionDataBuilder 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.Function.FunctionMetadataReader 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.IEvaluationListener 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.OperandClassTransformer 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.OperationEvaluatorFactory 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.ParseNode 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.AreaI 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.WorkbookDependentFormula 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.PTG.AttrPtg+SpaceType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Formula.FormulaShifter+ShiftMode 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.BorderStyle 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.CellType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ICellRange`1 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.ManuallyPositionable 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IChart 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisCrossBetween 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisCrosses 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisOrientation 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.AxisPosition 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IChartAxis 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IChartAxisFactory 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IChartDataFactory 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IChartLegend 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.LayoutMode 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.LayoutTarget 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.LegendPosition 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IManualLayout 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IScatterChartData`2 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IScatterChartSerie`2 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.Charts.IValueAxis 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.AnchorType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ComparisonOperator 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ConditionType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontUnderlineType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontSuperScript 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontColor 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FontBoldWeight 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.HorizontalAlignment 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.HyperlinkType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.LineStyle 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PaperSize 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PictureType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.DisplayCellErrorType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.IShape 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ShapeTypes 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.MarginType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.PanePosition 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.ITextbox 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.VerticalAlignment 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.SheetState 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.NameType 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.CellUtil+UnicodeMapping 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.CellWalk.ICellHandler 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.CellWalk.CellWalk+SimpleCellWalkContext 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.CellWalk.ICellWalkContext 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.MutableFPNumber+Rounder 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.MutableFPNumber+TenPower 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.Region 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.RegionUtil+CellPropertySetter 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.Util.SSCellRange`1+ArrayIterator`1 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.MutableBigInteger 生成填充码: 类型对 exported or assembly(NPOI.Fakes) 不可见。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.FixedField 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.Collections.ISet 生成填充码: 类型是一个接口。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.Util.ULongField 生成填充码: 类型已过时。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.Chart.ObjectKind 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.TextOrientation 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.HorizontalTextAlignment 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.HSSF.Record.VerticalTextAlignment 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 NPOI.SS.UserModel.FillPattern 生成填充码: 类型是一个枚举。
+F:\CRMTREE\CRMTREE\CRMTREE\Shinfotech.Library\Shinfotech.Common\Fakes\NPOI.fakes : warning : 无法为 <PrivateImplementationDetails>{7B2062A4-7CBD-4569-B0D7-ABA4736E29FF} 生成填充码: 类型不受支持，因为存在内部限制。

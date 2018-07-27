@@ -1,0 +1,48 @@
+﻿/* Reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,button,textarea,p,span,em,strong,i,small,sub,sup,table,caption,tbody,tfoot,thead,tr,th,td,a,img{margin:0;padding:0;border:0;font-size:100%;}
+em,strong,i,small{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+label,input,select,button{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+/* ------------------------------------------
+       			 Layout 
+-------------------------------------------*/
+body,button,input,select,textarea{font:normal 12px/1.5 'Tahoma','simsun';color:#333;}
+html,body{height:100%;}
+body{background:url(/images/login/bg.jpg) repeat-x 0 0 #fff; }
+a{text-decoration:none;color:#333;} 
+a:hover{text-decoration:none;color:#c80000;}
+.clearfix:after{content:".";clear:both;display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;} /* End hide from IE-mac */
+.mb10{margin-bottom:10px;}.mt10{margin-top:10px;}
+.page{width:400px;margin:0 auto;}
+.header .logo {display:inline;overflow:hidden;float:left;margin-top:200px;width:400px;height:87px;background:url(/images/login/login.png) no-repeat 0 0;line-height:600px;}
+.footer{width:400px;text-align:center;color:#666;line-height:180%;}
+.footer a{color:#666;}
+.footer a:hover{color:#f60;text-decoration:underline;}
+/* login */
+.login{width:400px;padding-top:10px;background:url(/images/login/login.png) no-repeat 0 100%;}
+.login p{margin-left:40px;}
+.login label,.login input,.login img{vertical-align:middle;}
+.login .errorInfo{width:295px;height:24px;line-height:24px;color:#404040; background:url(/images/login/login.png) no-repeat 0 -320px;margin-left:30px;padding-left:25px;}
+.login .textInput,.login .codeInput{width:224px;padding:0 2px;height:20px;height:20px;border:solid 1px #a7c1a9;}
+.login .codeInput{width:51px;}
+.loginBtn{position:relative;width:400px;height:200px;background:url(/images/login/login.png) no-repeat 0 -100px;}
+.loginBtn .btnSubmit{position:absolute;right:82px;top:33px;cursor:pointer;width:154px;height:28px;background:transparent;}
+
+
+.desktopShortcut{position:absolute;right:82px;top:8px;font-weight:700;color:#fff;}
+.desktopShortcut:hover{color:#f60;}
+
+
+.login .passWord{height:22px;background:url(/images/icon/logininput.png) no-repeat 48px 0;}
+.login .passWord input{width:198px;height:18px;line-height:18px;margin-top:1px;   /* margin-top:1px;margin-top:1px\9;*margin-top:1px; */ }
+.capsLock{display:block;width:97px;height:34px;position:relative;left:88px;top:-5px;margin-bottom:-5px;}
+.login .pw_hover{height:22px;background:url(/images/login/input_hover.png) no-repeat 48px 0;}
+.login .pw_hover input{width:198px;height:18px;line-height:18px;margin-top:1px;   /* margin-top:1px;margin-top:1px\9;*margin-top:1px; */ }
+
+.keypad-trigger{overflow:hidden;width:25px;height:20px;}
+
+

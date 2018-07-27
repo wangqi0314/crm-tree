@@ -1,0 +1,22 @@
+﻿body {
+}
+.Content_M{margin:2px;}
+.Content_top{ background:#E9D1BB;border-radius: 3px 3px 3px 3px; color:#000; font-size:14px; padding:10px 10px 10px 15px; text-align:left;height:15px;font-weight:bold;font-family:Arial,SimSun ,"宋体";}
+.Content_center{margin-top:2px;}
+.Content_Titel_Con{margin-left:4px;}
+.Content_Title{margin-top:2px;width:auto;height:35px;}
+
+.Content_Title .Title{float:left;background:#CECECE; color:#000;border:1px solid #d2d2d2;border-radius: 5px 5px 0px 0px; height:30px;margin-top:4px;text-align:center;}
+.Content_Title .Title1{float:left;background:#E7ECE2; color:#000;border:1px solid #d2d2d2;border-radius: 5px 5px 0px 0px; height:30px;margin-top:4px;text-align:center;}
+.Content_Title .Title div{margin-top:3px;width:80px;font-weight:bold;font-family:Arial,SimSun ,"宋体";font-size:12px;cursor: pointer;}
+.Content_Title .Title1 div{margin-top:4px;width:80px;font-weight:bold;font-family:Arial,SimSun ,"宋体";font-size:12px;cursor: pointer;background:#E7ECE2;height:24px;}
+
+.ConText_info{border:1px solid #d2d2d2;border-radius: 5px 5px 1px 1px;}
+.Contact_Mobile{border:1px solid #d2d2d2;border-radius: 10px 10px 10px 10px;margin:5px;margin-top:10px;height:100px;width:60%;background:#E7ECE2;}
+.MobileImage{float:left;margin:4px;}
+.Mobile{float:left;text-align: left; line-height: 1.8em;margin:4px;}
+
+.Contact_Email{border:1px solid #d2d2d2;border-radius: 10px 10px 10px 10px;margin:5px;height:100px;width:60%;background:#E7ECE2;}
+.EmailImage{float:left;margin:4px;}
+.Contact_Timely{border:1px solid #d2d2d2;border-radius: 10px 10px 10px 10px;margin:5px;height:100px;width:60%;background:#E7ECE2;}
+.TimelyImage{float:left;margin:4px;}
